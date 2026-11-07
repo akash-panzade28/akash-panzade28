@@ -472,6 +472,7 @@ The placebo row confirms the test is not rigged (random picks earn about 0%). Bu
 ## 10. Verification log (Nov 7)
 
 - **Re-checked against fresh Yahoo data:** all 30 prices match the latest close; every derived number (stops, targets, buy zones, weights, R:R, sector mix) was recomputed from the same inputs.
+
 - **Corrected:** nine analyst-count claims (for example "26 of 29 Buy") mixed the target-count with the rating-count; they now use the rating counts from Yahoo's recommendation trend. Kotak, Visa, Mastercard, KDP and Arista text was updated after checking company releases and news.
 - **Confirmed by independent sources:** Kotak Q2 profit and NIM; Visa Q4 and the 16% dividend rise; Mastercard Q3 services +19%; KDP Q3 results; Arista Q3 revenue and EPS; the RBI repo hike to 5.50% on Oct 7; the Nifty/Sensex levels (Yahoo plus DSIJ).
 - **Cross-checked with the installed trader skills (second pass):** `trader-analyst` pulled Q3 numbers straight from SEC filings for all 15 US names. Revenue growth and margins agree with the Yahoo figures used, except Nasdaq (SEC: revenue +20.9%, operating margin 30.6%, not +13% and 51%) and Hilton (SEC operating margin 27.3% of total revenues, not 67%); both were corrected. It also showed Lilly's revenue growth slowing (+55.5%, +47.7%, +38.6%), now flagged. `trader-news` supplied fresh headlines and daily moves (Arista, Zebra and KDP price paths were added). It also exposed a Yahoo quote glitch for Hilton (a stale 376.53 price); the daily closes used here are correct.
