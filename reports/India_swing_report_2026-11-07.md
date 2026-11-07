@@ -1,12 +1,12 @@
 # India: 15 stocks for a 4–5 week hold
-**Prepared Saturday Nov 7, 2026 · prices are Nov 6 closing prices · intended entry from Monday Nov 9, exit window Dec 7–14**
+**Prepared Saturday Nov 7, 2026 · prices are Nov 6 closing prices · intended entry from Monday Nov 9, exit by Dec 7 (before the Fed), latest Dec 11**
 
 > **Not investment advice.** This is a research output built from public data and a rules-based screen. Nothing here is a guarantee: a 4–5 week hold is dominated by market noise, and "maximum profit" cannot be promised, only pursued with positive expected value and capped losses. Verify prices on a live quote before acting. Position sizes assume you can lose the stop distance on every name.
 
 ## 1. Bottom line
 
 - **The 15 picks** below were chosen from the Nifty 500 (500 stocks), narrowed by liquidity, trend, relative strength, and earnings-event risk to 70 names, then ranked on fundamentals, analyst data, post-earnings reaction and fresh news. 6 are high-conviction (A), 7 medium (B), 2 tactical (C).
-- **Realistic expectation for the weighted basket:** a central outcome of about **2% to 5% over 4–5 weeks**, with a roughly **60–65% chance of finishing positive** and a one-standard-deviation range of about **±5.6%** for the whole basket. That is a haircut from the walk-forward test in section 3 (see why there).
+- **Realistic expectation for the weighted basket:** a central outcome of about **+0.5% to +2.5% over 4–5 weeks**, with an estimated **50–58% chance of finishing positive** and a one-standard-deviation range of about **±5.6%** for the whole basket. That is lower than the historical screen test suggests; sections 3 and 7 explain why (the Monte Carlo in section 7 is the better guide).
 - **Downside is capped by the stops:** if every stop were hit on the same day, the basket would lose about **7.1%**. If every Target 1 were hit, the basket would gain about **7.3%**; if every Target 2, about **14.6%**. These are the worst-case and best-case ends of the planned ranges, not predictions.
 - **Biggest risk right now:** a pause in a market that is up 10.7% in a month, and a reversal in foreign flows or crude oil.
 
@@ -29,7 +29,7 @@
 
 **Walk-forward test of the technical score (what the evidence says):** I applied the same technical ranking at 22 past dates over the last two years, took the top 15, and measured the next 25 trading days. The top 15 returned **4.10%** on average versus **0.46%** for the whole universe: an average edge of **3.64%**, with 54% of top-15 stocks finishing positive and the top 15 beating the universe in 16 of 22 windows. Note the latest window: the most recent window lost 3.1% while the universe gained 0.4%. So the edge is real on average but not reliable in any single month.
 
-**Why the expectation above is lower than +4.1%:** that test (a) uses today's index members, so it carries survivorship bias, (b) covers a two-year bull run, (c) tests only the technical part, and (d) has just 22 overlapping windows. I therefore count roughly half of the edge, on top of normal market drift.
+**Why the expectation above is lower than +4.1%:** that test (a) uses today's index members, so it carries survivorship bias, (b) covers a two-year bull run, (c) tests only the technical part, and (d) has just 22 overlapping windows. I therefore count at most half of the edge, on top of normal market drift. Section 7 shows a 20,000-path Monte Carlo that puts the odds of a positive five weeks at about 50-58% under realistic assumptions.
 
 **What I could not verify:** Yahoo Finance's analyst targets lag fast-moving prices (several mean targets sit at or below the current price), many Indian news items came from aggregator sites that sometimes disagree on figures (I flag these in the text), and I have no live feed for intraday prices or options data.
 
@@ -389,7 +389,56 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 | MOTILALOFS | Sources conflict on the Q2 numbers, and the stock fell ~9% after Q1 results. |
 | STLTECH | −25% in a month; cause not found. |
 
-## 7. Execution plan
+## 7. Scenario and stress analysis
+
+**Monte Carlo.** Monte Carlo: 20,000 five-week paths per row, built by resampling the basket's own daily returns in 5-day blocks (this keeps the correlation between stocks). Each stock's past drift was removed first, so the numbers show risk without the selection bias of picking recent winners. The plan rows apply the stops (daily close), sell 40% at Target 1 and move the stop to entry, and sell the rest at Target 2, with 0.1% slippage each side.
+
+| Assumed drift per 25 days | Method | Mean | Median | 5th pct | 95th pct | Chance positive | Chance of losing 5%+ | Worst of 20,000 |
+|---|---|---|---|---|---|---|---|---|
+| 0% (pure risk, no edge) | Stops and targets | -0.4% | -0.7% | -6.3% | +6.7% | 44% | 12% | -9.1% |
+| 0% (pure risk, no edge) | No stops (hold) | -0.4% | -0.5% | -9.1% | +9.0% | 46% | 20% | -22.7% |
+| +0.8% (typical market drift per 25 days) | Stops and targets | +0.2% | -0.1% | -6.0% | +7.4% | 49% | 10% | -9.0% |
+| +0.8% (typical market drift per 25 days) | No stops (hold) | +0.5% | +0.3% | -8.2% | +9.8% | 52% | 15% | -17.5% |
+| +2% (market drift plus about half the past screen edge) | Stops and targets | +1.0% | +0.9% | -5.4% | +8.0% | 58% | 7% | -9.2% |
+| +2% (market drift plus about half the past screen edge) | No stops (hold) | +1.6% | +1.5% | -7.2% | +10.9% | 60% | 11% | -18.9% |
+
+Read it this way: with no edge at all the chance of finishing positive is about 44-46%. At a typical market drift it is about 49-52%. It reaches 58-60% only if the screen keeps about half of its past edge plus normal drift. The stops and targets lower the average by 0.1 to 0.6 points but cut the 5th-percentile loss from about −8% to about −6% and the worst case from −18% to −9%.
+
+**Named scenarios.** Each stock's move is its beta to the index (shrunk halfway toward 1.0, which is cautious for low-beta defensives) plus a sector or style shock. "With stops" assumes each stop fills about 0.5% below its level.
+
+| Scenario | What is assumed | Basket, no stops | Basket, with stops | Stops triggered (of 15) | Action |
+|---|---|---|---|---|---|
+| **Base case: grind higher** | Nifty +1%, no style shift | +1.0% | +1.0% | 0 | Keep the plan. |
+| **Rally extends on foreign buying** | Nifty +6%, banks and autos lead | +6.8% | +6.8% | 0 | Hold. Add to ICICI Bank and TVS Motor only on a pullback to the buy zone. |
+| **Profit-booking pullback** | Nifty −5% after a 10.7% month | -5.0% | -4.9% | 4 | Normal after a 10.7% month. Use the staggered entries; four stops may trigger. |
+| **Foreign selling and rupee slide** | Nifty −8%, banks −3% extra, exporters +3% | -8.7% | -6.5% | 12 | The worst case for this basket: twelve stops would trigger. Honour the Nifty 23,250 kill-switch. |
+| **Crude oil back above $100** | Nifty −5%, autos and consumer −3% extra | -5.9% | -5.5% | 7 | TVS Motor, Radico and KPR Mill are the exposed names. Trim them before the others. |
+| **RBI turns more hawkish** | Nifty −3%, banks and NBFCs −3% extra | -4.1% | -4.1% | 2 | Banks and NBFCs (Kotak, ICICI, Karur Vysya, Poonawalla) are 31% of weight. Watch the Dec 4 decision; consider trimming Poonawalla first (highest leverage). |
+| **US tech selloff spills over** | Nifty −3%, IT −10% extra | -3.9% | -3.7% | 3 | Coforge is the only IT holding (6% weight), so the damage is contained. |
+| **Global risk-off** | Nifty −10%, high-beta fintech/exchange −4% extra | -10.3% | -7.0% | 13 | Treat as the kill-switch case: cut by half and reassess. |
+| **Melt-up chase** | Nifty +9%, cyclicals and high-beta lead | +9.7% | +9.7% | 0 | Keep the plan. |
+
+**Reverse stress test:** a plain market fall of about 5.2% takes the basket down 5% after stops.
+
+**Robustness of the screen.** Same ranking, different settings:
+
+| Test (25-day hold unless stated) | Average edge vs universe | Windows beating universe |
+|---|---|---|
+| Top 10 by score | +5.70% | 73% of 22 |
+| Top 15 by score (this report) | +3.64% | 73% of 22 |
+| Top 30 by score | +2.87% | 82% of 22 |
+| 15 random stocks (placebo) | +0.03% | 45% of 22 |
+| Bottom 15 by score | -0.68% | 36% of 22 |
+| Top 15, 15-day hold | +1.33% | 70% of 23 |
+| Top 15, 35-day hold | +5.84% | 81% of 21 |
+
+In India the evidence is cleaner than in the US: the top 15 beat the universe by 3.64% in 73% of windows, random picks earned about 0%, and the bottom 15 lagged by 0.68%. The edge grows with the holding period (5.8% at 35 days) but falls to 1.3% at 15 days, which supports a 4–5 week hold over a shorter one.
+
+**Policy and flow context.** The RBI raised the repo rate by 25 bp to 5.50% on Oct 7 and moved to a calibrated-tightening stance; the next decision is Dec 4 (official schedule: Dec 2–4). Foreign investors turned buyers after a long selling stretch, and the Nifty has risen 10.7% in a month, so the starting point is stretched. Broker views on the individual stocks are in each card (for example Jefferies on Kotak and Elara on ICICI).
+
+**Events inside the window that can swing the whole basket:** Diwali trading days (check the NSE calendar); US CPI on Nov 10 and Nvidia earnings on Nov 17 (both move foreign flows and Indian IT); RBI decision Dec 4; US Fed Dec 8–9.
+
+## 8. Execution plan
 
 1. **Entry:** place limit orders inside each buy zone. For names marked "starter ⅓", buy only a third on Monday and wait for a pullback toward the 20-day average for the rest; if no pullback appears by Nov 20, add half of the remainder and skip the rest.
 2. **Stops:** use daily-close stops at the listed levels. Do not widen a stop after entry.
@@ -397,32 +446,37 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 4. **Time stop:** at the end of week 3, exit any position that is below its entry price **and** below its 20-day average; the thesis is not working.
 5. **Portfolio kill-switch:** if the Nifty closes below 23,250 (its 50-day average, 7% below Friday's close), or India VIX closes above 22, cut every position by half and reassess.
 6. **Weekly review (every Friday):** check news and any rating changes; replace a stock only if a stop is hit or its thesis breaks (for example a guidance cut), never because it is up.
-7. **Exit:** close the remainder in the Dec 7–14 window.
+7. **Exit:** close the remainder by Mon Dec 7, the last session before the Fed (US) and the Dec 4 RBI decision (India). Hold to Dec 11 only if every remaining position is above its trailing stop.
 
 ### Calendar
 | Date | Event |
 |---|---|
 | Sun Nov 8 / Mon Nov 9 | Diwali period: check NSE's holiday and Muhurat-session calendar for the exact trading days. First entries when normal trading resumes. |
 | Through Nov 14 | Remaining Q2 results (HAL on Nov 12). Not a holding here. |
-| Mid-Nov | India October CPI; US data and crude oil are the other swing factors. |
-| Early Dec | RBI monetary policy meeting (date to be confirmed on the RBI site): matters for banks and NBFCs. |
-| Dec 8–9 | US FOMC, which moves FPI flows. |
-| Dec 7–14 | Planned exit window (4–5 weeks from entry). |
+| Tue Nov 10 | US October CPI (8:30 ET), which moves foreign flows. |
+| Tue Nov 17 | Nvidia earnings after the US close: a spillover event for Indian IT and global risk appetite. |
+| Dec 2–4 | RBI Monetary Policy Committee meeting; decision on Dec 4 (official schedule; check for changes). Matters for banks and NBFCs. |
+| Mon Dec 7 | **Preferred exit date** (4 weeks): the last session before the US Fed. |
+| Dec 8–9 | US FOMC, which moves foreign flows. |
+| Fri Dec 11 | Latest exit (5 weeks) if you hold through the Fed with trailing stops intact. |
 
-## 8. What would change my view
+## 9. What would change my view
 
 - **Bearish:** The Nifty closes below 23,250 (its 50-day average, 7% below Friday's close), or India VIX closes above 22. A guidance cut, regulator action or rating downgrade from several brokers on any holding. A sharp reversal of foreign flows, or Brent crude moving back above $100.
 - **Bullish:** Nifty reclaiming its 52-week high of 26,329 on strong volume would support adding to the extended names (ICICI Bank, TVS Motor).
 
-## 9. Verification log (Nov 7)
+## 10. Verification log (Nov 7)
 
 - **Re-checked against fresh Yahoo data:** all 30 prices match the latest close; every derived number (stops, targets, buy zones, weights, R:R, sector mix) was recomputed from the same inputs.
 - **Corrected:** nine analyst-count claims (for example "26 of 29 Buy") mixed the target-count with the rating-count; they now use the rating counts from Yahoo's recommendation trend. Kotak, Visa, Mastercard, KDP and Arista text was updated after checking company releases and news.
 - **Confirmed by independent sources:** Kotak Q2 profit and NIM; Visa Q4 and the 16% dividend rise; Mastercard Q3 services +19%; KDP Q3 results; Arista Q3 revenue and EPS; the RBI repo hike to 5.50% on Oct 7; the Nifty/Sensex levels (Yahoo plus DSIJ).
-- **Not confirmed:** the Lilly/Hims deal terms (only headlines), Brent crude price on Nov 6, post-earnings share moves for Arista and Humana, and exact dates for US CPI and the RBI December meeting.
+- **Cross-checked with the installed trader skills (second pass):** `trader-analyst` pulled Q3 numbers straight from SEC filings for all 15 US names. Revenue growth and margins agree with the Yahoo figures used, except Nasdaq (SEC: revenue +20.9%, operating margin 30.6%, not +13% and 51%) and Hilton (SEC operating margin 27.3% of total revenues, not 67%); both were corrected. It also showed Lilly's revenue growth slowing (+55.5%, +47.7%, +38.6%), now flagged. `trader-news` supplied fresh headlines and daily moves (Arista, Zebra and KDP price paths were added). It also exposed a Yahoo quote glitch for Hilton (a stale 376.53 price); the daily closes used here are correct.
+- **Probability correction:** an earlier draft said 60–65% chance of a positive five weeks. The Monte Carlo in section 7 does not support that for the US (about 55% at normal drift). The headline numbers were lowered.
+- **Calendar now confirmed:** RBI decision Dec 4 (official schedule), Nvidia earnings Nov 17 (company release), October CPI Nov 10 (third-party calendars; confirm on bls.gov).
+- **Not confirmed:** the Lilly/Hims deal terms (only headlines), Brent crude price on Nov 6, and the exact BLS CPI dates.
 - **Known limits:** Yahoo analyst targets lag price; several Indian figures come from aggregator sites; the walk-forward test carries survivorship bias.
 
-## 10. Sources and data notes
+## 11. Sources and data notes
 
 - Prices, volumes, fundamentals and analyst data: Yahoo Finance chart and quote-summary endpoints (pulled Nov 7, 2026). Index membership: NSE Nifty 500 constituent file (archives.nseindia.com).
 - Market context: [CNBC, Nov 5 selloff](https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html), [Yahoo Finance live blog, Nov 6](https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html), [CNBC on the VIX](https://www.cnbc.com/2026/11/06/wall-streets-fear-gauge-may-be-flashing-a-buy-sign.html), [Reuters via Business Recorder on the Fed](https://www.brecorder.com/news/40447788/fed-seen-sticking-to-december-rate-hike-after-jobs-data), [DSIJ on the Nifty rally](https://insights.dsij.in/dsijarticledetail/nifty-50-reclaims-25000-sensex-surges-over-1700-points-on-7th-day-of-gains-60349).

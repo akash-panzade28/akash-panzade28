@@ -1,12 +1,12 @@
 # United States: 15 stocks for a 4–5 week hold
-**Prepared Saturday Nov 7, 2026 · prices are Nov 6 closing prices · intended entry from Monday Nov 9, exit window Dec 7–14**
+**Prepared Saturday Nov 7, 2026 · prices are Nov 6 closing prices · intended entry from Monday Nov 9, exit by Dec 7 (before the Fed), latest Dec 11**
 
 > **Not investment advice.** This is a research output built from public data and a rules-based screen. Nothing here is a guarantee: a 4–5 week hold is dominated by market noise, and "maximum profit" cannot be promised, only pursued with positive expected value and capped losses. Verify prices on a live quote before acting. Position sizes assume you can lose the stop distance on every name.
 
 ## 1. Bottom line
 
 - **The 15 picks** below were chosen from the 503 S&P 500 constituents, narrowed by liquidity, trend, relative strength, and earnings-event risk to 70 names, then ranked on fundamentals, analyst data, post-earnings reaction and fresh news. 5 are high-conviction (A), 7 medium (B), 3 tactical (C).
-- **Realistic expectation for the weighted basket:** a central outcome of about **2% to 5% over 4–5 weeks**, with a roughly **60–65% chance of finishing positive** and a one-standard-deviation range of about **±5.4%** for the whole basket. That is a haircut from the walk-forward test in section 3 (see why there).
+- **Realistic expectation for the weighted basket:** a central outcome of about **+0.5% to +2% over 4–5 weeks**, with an estimated **55% chance of finishing positive** and a one-standard-deviation range of about **±5.4%** for the whole basket. That is lower than the historical screen test suggests; sections 3 and 7 explain why (the Monte Carlo in section 7 is the better guide).
 - **Downside is capped by the stops:** if every stop were hit on the same day, the basket would lose about **7.7%**. If every Target 1 were hit, the basket would gain about **6.2%**; if every Target 2, about **12.4%**. These are the worst-case and best-case ends of the planned ranges, not predictions.
 - **Biggest risk right now:** a hawkish Fed on Dec 8–9 (≈78% hike odds) and an AI-policy shock that is still unresolved.
 
@@ -31,7 +31,7 @@
 
 **Walk-forward test of the technical score (what the evidence says):** I applied the same technical ranking at 22 past dates over the last two years, took the top 15, and measured the next 25 trading days. The top 15 returned **5.60%** on average versus **1.83%** for the whole universe: an average edge of **3.76%**, with 58% of top-15 stocks finishing positive and the top 15 beating the universe in 14 of 22 windows. Note the latest window: the most recent window lost 16.0% while the universe gained 3.5%. So the edge is real on average but not reliable in any single month.
 
-**Why the expectation above is lower than +5.6%:** that test (a) uses today's index members, so it carries survivorship bias, (b) covers a two-year bull run, (c) tests only the technical part, and (d) has just 22 overlapping windows. I therefore count roughly half of the edge, on top of normal market drift.
+**Why the expectation above is lower than +5.6%:** that test (a) uses today's index members, so it carries survivorship bias, (b) covers a two-year bull run, (c) tests only the technical part, and (d) has just 22 overlapping windows. I therefore count at most half of the edge, on top of normal market drift. Section 7 shows a 20,000-path Monte Carlo that puts the odds of a positive five weeks at about 55% under realistic assumptions.
 
 **What I could not verify:** Yahoo Finance's analyst targets lag fast-moving prices (several mean targets sit at or below the current price), many Indian news items came from aggregator sites that sometimes disagree on figures (I flag these in the text), and I have no live feed for intraday prices or options data.
 
@@ -149,7 +149,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 
 **Catalyst:** Dividend/buyback cash returns; holiday-season spending data.
 
-**Risk:** Swipe-fee or payments-regulation headlines under a Democratic Congress (inference). Valuation 28x forward earnings. Highly correlated with Visa: treat the two as one theme.
+**Risk:** Swipe-fee or payments-regulation headlines under a Democratic Congress (inference; a Nov 7 Yahoo headline asks about Mastercard's 'card rule risk'). Valuation 28x forward earnings. Highly correlated with Visa: treat the two as one theme.
 
 **Trade plan:** buy half on Monday and half within the first week. Stop on a daily close below **$606.34** (-7.1%). Take a third to a half off at **$687.47** (+5.3%), then trail the rest under the 20-day average toward **$722.24** (+10.7%). Event calendar: next reported date on file: 2027-01-28.
 
@@ -176,7 +176,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 **Its own two-year history (risk context only, not a forecast):** a 25-day hold ended positive 66% of the time; 10th / 50th / 90th percentile return -8% / +4% / +13%. Target 1 was touched within 25 days in 64% of windows, Target 2 in 30%, and the stop level in 44%.
 
 ### HLT: Hilton Worldwide  ·  weight 7.4%  ·  conviction B
-*Asset-light, 67% operating margin, shrugged off the 'blue wave'.*
+*Asset-light fee business that shrugged off the 'blue wave'.*
 
 | Price | 1m / 3m / 6m | vs 52w high | RSI(14) | vs 20-day avg | Fwd P/E | Rev. growth | Op. margin | Beta (1y) | 25-day σ |
 |---|---|---|---|---|---|---|---|---|---|
@@ -184,7 +184,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 
 **Evidence**
 - Citi raised its target to $400 from $335 on Nov 3 (MT Newswires); Hilton's CEO sees no 'dramatic' impact from the election result (Yahoo Finance, Nov 5).
-- Earnings +33%, 19 of 28 Buy. Q3 reported Oct 27.
+- Q3 filed Oct 27 (SEC): revenue +6.6%, net income +27.6%, operating margin 27.3% of total revenues (Yahoo shows 67% on a fee-revenue basis). 19 of 28 analysts Buy.
 - Up 19% in 3 months with accumulation volume (up/down ratio 1.3).
 
 **Catalyst:** Holiday travel season; capital returns.
@@ -243,7 +243,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 | $107.12 | +16.0% / +12.0% / +20.5% | -3.9% | 78 | +5.9% | 23 | +13% | 51% | 0.60 | 8.2% |
 
 **Evidence**
-- Revenue +13%, earnings +32%, operating margin 51%; 14 of 18 analysts Buy, mean target $115 (+8%).
+- Q3 filed Oct 22 (SEC): revenue +20.9% y/y, EPS +31.5%, operating margin 30.6% of total revenues (Yahoo shows 51% on a net-revenue basis). 14 of 18 analysts Buy, mean target $115 (+8%).
 - Price up 16% in a month; 3.9% below high.
 - Next earnings Jan 28.
 
@@ -303,7 +303,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 | $36.63 | +17.2% / +25.0% / +27.1% | -3.3% | 63 | +4.9% | 14 | +71% (incl. JDE Peet's; legacy +8.6%) | 19% | 0.02 | 9.4% |
 
 **Evidence**
-- Q3 reported Nov 3: net sales +70.6% to $7.34B (JDE Peet's, acquired April 1, contributed $2.6B; legacy KDP sales +8.6%), adjusted EPS +22.2% to $0.66, full-year guidance reaffirmed. Investing.com's headline notes the shares fell premarket.
+- Q3 reported Nov 3: net sales +70.6% to $7.34B (JDE Peet's, acquired April 1, contributed $2.6B; legacy KDP sales +8.6%), adjusted EPS +22.2% to $0.66, full-year guidance reaffirmed. The shares fell 5.7% on Nov 3 ($36.82 to $34.74) and recovered to $36.63 by Nov 6.
 - Management now expects a more gradual category recovery, with legacy KDP EPS growth of 3-5%; the split into Beverage Co. and Global Coffee Co. is still planned for early 2027.
 - 13 of 18 analysts Buy; mean target $38 (+4%); the stock is up 25% in 3 months.
 
@@ -324,12 +324,12 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 
 **Evidence**
 - Revenue growth 39% y/y, operating margin 54%, ROE 86% (Yahoo Finance fundamentals).
-- Q3 reported Oct 29, so earnings risk is behind it; 26 of 31 analysts rate Buy (mean target $1,442, high $1,690).
+- Q3 filed Oct 29 (SEC): revenue $24.4B, +38.6% y/y; EPS $7.22, +16.3%. 26 of 31 analysts rate Buy (mean target $1,442, high $1,690).
 - Nov 6 headlines (Investor's Business Daily, GuruFocus, TIKR) report Lilly selecting Hims & Hers to sell its obesity drugs. I could not confirm the terms or size of the deal.
 
 **Catalyst:** Obesity-drug distribution expansion; momentum (+43% in 6 months, 6.8% below its 52-week high).
 
-**Risk:** Mean analyst target is only 7% above the price, so more upside has to come from momentum, not valuation. A Democratic House raises drug-pricing headline risk (inference). Up 15.8% in a month.
+**Risk:** Revenue growth has slowed in each of the last three quarters (+55.5%, +47.7%, +38.6% per SEC filings) and Q3 net income grew only 15.5%. The mean analyst target is only 7% above the price, so more upside has to come from momentum. Hims & Hers reports Nov 9, which can move the headline. Ark Invest was reported selling LLY (Nov 7). A Democratic House raises drug-pricing headline risk (inference). Up 15.8% in a month.
 
 **Trade plan:** buy half on Monday and half within the first week. Stop on a daily close below **$1,221** (-9.8%). Take a third to a half off at **$1,454** (+7.4%), then trail the rest under the 20-day average toward **$1,553** (+14.7%). Event calendar: latest results already out (no earnings date inside the window).
 
@@ -343,7 +343,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 | $322.02 | -15.7% / -14.8% / +42.5% | -18.0% | 24 | -12.7% | 14 | +22% | 15% | 1.58 | 10.0% |
 
 **Evidence**
-- Q3 call: strong demand and raised outlook (Zacks, Nov 4), yet the stock fell 15.7% in a month.
+- Q3 call: strong demand and raised outlook (Zacks, Nov 4), yet the stock fell 8.8% on the results day (Nov 3: $361.13 to $329.50) and 15.7% over the month.
 - Forward P/E 14, earnings +74%; mean target $417 (+30%) though Baird trimmed to $400 from $420.
 - Oversold bounce setup: 12.7% below its 20-day line.
 
@@ -363,13 +363,13 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 | $170.80 | -19.0% / -10.8% / +20.5% | -21.4% | 44 | -5.4% | 30 | +58% | 45% | 2.32 | 17.3% |
 
 **Evidence**
-- Q3 (Nov 3): revenue $3.66B vs $3.33B consensus, non-GAAP EPS $1.20 vs $1.08, Q4 revenue guide $3.9-4.0B above the Street; growth about 58-61% (sources differ). I could not find the post-earnings price reaction. Yahoo data: earnings +82%, operating margin 45%.
+- Q3 (Nov 3): revenue $3.66B vs $3.33B consensus, non-GAAP EPS $1.20 vs $1.08, Q4 revenue guide $3.9-4.0B above the Street; growth about 58-61% (sources differ). SEC filing: revenue +58.5%, EPS +82%, operating margin 44.9%. Price path: +3.5% on Nov 3, +5.0% on Nov 4, then -10.8% on Nov 5 (the AI selloff day) and +7.3% on Nov 6.
 - 29 Buy ratings against 1 Hold in the latest recommendation trend; mean target $248 (+45%), forward P/E 30.
 - Price is 21% below its high, RSI 44 and 5% below its 20-day line.
 
 **Catalyst:** Stabilising AI-capex sentiment; Jefferies calls the selloff reactionary; Bespoke finds VIX spikes were often followed by positive 3- and 6-month returns.
 
-**Risk:** Beta 2.3 and 17% 25-day volatility: the widest stop in the US list. If the AI-regulation narrative worsens it can fall further. Keep the weight small (3.5%).
+**Risk:** Beta 2.3 and 17% 25-day volatility: the widest stop in the US list. It already bounced 7.3% on Nov 6, so Monday's entry follows a big up day; use the buy zone. Nvidia reports Nov 17 after the close, a swing event for the whole AI trade. If the AI-regulation narrative worsens it can fall further. Keep the weight small (3.5%).
 
 **Trade plan:** buy half on Monday and half within the first week. Stop on a daily close below **$141.21** (-17.3%). Take a third to a half off at **$193.00** (+13.0%), then trail the rest under the 20-day average toward **$215.19** (+26.0%). Event calendar: latest results already out (no earnings date inside the window).
 
@@ -392,7 +392,55 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 | PLTR | Strong growth but 64x forward earnings, beta 1.6, and a Nov 6 headline about slowing commercial bookings. |
 | VLO, MPC, PSX | Down 13–22% in a month with RSI 19–24. I could not find the cause in this session, so I did not chase the move. |
 
-## 7. Execution plan
+## 7. Scenario and stress analysis
+
+**Monte Carlo.** Monte Carlo: 20,000 five-week paths per row, built by resampling the basket's own daily returns in 5-day blocks (this keeps the correlation between stocks). Each stock's past drift was removed first, so the numbers show risk without the selection bias of picking recent winners. The plan rows apply the stops (daily close), sell 40% at Target 1 and move the stop to entry, and sell the rest at Target 2, with 0.1% slippage each side.
+
+| Assumed drift per 25 days | Method | Mean | Median | 5th pct | 95th pct | Chance positive | Chance of losing 5%+ | Worst of 20,000 |
+|---|---|---|---|---|---|---|---|---|
+| 0% (pure risk, no edge) | Stops and targets | -0.2% | -0.1% | -6.6% | +5.8% | 49% | 11% | -12.8% |
+| 0% (pure risk, no edge) | No stops (hold) | -0.3% | -0.2% | -8.8% | +7.9% | 49% | 16% | -24.0% |
+| +0.8% (typical market drift per 25 days) | Stops and targets | +0.4% | +0.5% | -6.2% | +6.3% | 55% | 9% | -12.4% |
+| +0.8% (typical market drift per 25 days) | No stops (hold) | +0.5% | +0.7% | -8.1% | +8.8% | 56% | 13% | -23.3% |
+| +2% (market drift plus about half the past screen edge) | Stops and targets | +1.2% | +1.4% | -5.4% | +7.1% | 63% | 6% | -12.1% |
+| +2% (market drift plus about half the past screen edge) | No stops (hold) | +1.7% | +1.8% | -6.8% | +10.0% | 64% | 9% | -26.4% |
+
+Read it this way: with no edge at all the chance of finishing positive is about 49%. At a typical market drift it is about 55%. It reaches 63% only if the screen keeps about half of its past edge plus normal drift. The stops and targets lower the average a little (by 0.1 to 0.5 percentage points) but cut the 5th-percentile loss from about −8% to about −6% and the worst case from −23% to −12%.
+
+**Named scenarios.** Each stock's move is its beta to the index (shrunk halfway toward 1.0, which is cautious for low-beta defensives) plus a sector or style shock. "With stops" assumes each stop fills about 0.5% below its level.
+
+| Scenario | What is assumed | Basket, no stops | Basket, with stops | Stops triggered (of 15) | Action |
+|---|---|---|---|---|---|
+| **Base case: grind higher** | S&P +1%, no style shift | +0.8% | +0.8% | 0 | Keep the plan. |
+| **Relief rally: AI selloff reverses** | S&P +6%, AI/tech +8% extra, defensives lag | +4.1% | +4.1% | 0 | Hold. Consider adding to Arista and Zebra on the first pullback after the Nov 17 Nvidia print. |
+| **Rotation unwind out of defensives** | S&P +2%, healthcare −6%, money moves back to tech | -1.3% | -1.3% | 0 | This is the main threat to the basket. If healthcare and payments fall together for several days while tech rallies, cut the defensive weight by a third and move it to cash rather than to tech. |
+| **Hawkish Fed: 50 bp or repeated hikes** | S&P −5%, high-multiple stocks −3% extra | -4.3% | -4.3% | 1 | Reduce high-multiple names (West, Hilton, Arista) first. Exit the whole basket on stops, not on opinion. |
+| **AI selloff resumes** | S&P −8%, AI names −12% extra, defensives cushion +2% | -6.0% | -5.1% | 2 | Arista and Zebra stops trigger first. The defensive core should cushion the basket; do not rebuy before Nvidia reports. |
+| **Healthcare policy shock** | Drug-pricing or Medicare-rate headlines: healthcare −10% | -4.9% | -3.6% | 6 | Six positions share this risk. If healthcare falls 5% in a day, sell the weakest two healthcare names rather than waiting for each stop. |
+| **Recession or credit scare** | S&P −12%, financials −4%, travel −6%, healthcare +3% | -9.4% | -6.9% | 10 | The kill-switch (S&P weekly close below 7,000) is meant for this case. Go to at least 50% cash. |
+| **Melt-up chase** | S&P +10%, defensives lag | +6.2% | +6.2% | 0 | Keep the plan. |
+
+**Reverse stress test:** a plain market fall of about 6.7% takes the basket down 5% after stops.
+
+**Robustness of the screen.** Same ranking, different settings:
+
+| Test (25-day hold unless stated) | Average edge vs universe | Windows beating universe |
+|---|---|---|
+| Top 10 by score | +5.11% | 68% of 22 |
+| Top 15 by score (this report) | +3.76% | 64% of 22 |
+| Top 30 by score | +1.63% | 73% of 22 |
+| 15 random stocks (placebo) | -0.02% | 41% of 22 |
+| Bottom 15 by score | +2.61% | 64% of 22 |
+| Top 15, 15-day hold | +2.20% | 65% of 23 |
+| Top 15, 35-day hold | +6.57% | 71% of 21 |
+
+The placebo row confirms the test is not rigged (random picks earn about 0%). But in the US the bottom 15 by score also beat the universe by 2.6%, so the top-minus-bottom spread is only about 1.2 points. That means the US technical ranking has weak, unreliable evidence behind it. The US list leans on fundamentals, event timing and the regime view instead. In India the picture is cleaner: top 15 +3.64% against bottom 15 −0.68%.
+
+**Strategist views.** A Bloomberg survey of 19 strategists put the average year-end S&P 500 target at 7,967, barely changed from September, but it was taken before the early-November drop. Morgan Stanley's Nov 2 note set a tactical downside range of 7,100–7,300 with an 8,000 year-end base case, and the index closed Friday at 7,377, so the downside zone is only 1% to 4% below. Jefferies called the selloff reactionary rather than a fundamental reset. Treat these as context: none of them was updated after Thursday's drop.
+
+**Events inside the window that can swing the whole basket:** Nov 9 Hims & Hers earnings (Lilly headline); Nov 10 October CPI at 8:30 ET (per third-party calendars of the BLS schedule; confirm on bls.gov); Nov 17 Nvidia earnings after the close (date confirmed in the company's Oct 28 release); Dec 8–9 FOMC; Dec 10 November CPI.
+
+## 8. Execution plan
 
 1. **Entry:** place limit orders inside each buy zone. For names marked "starter ⅓", buy only a third on Monday and wait for a pullback toward the 20-day average for the rest; if no pullback appears by Nov 20, add half of the remainder and skip the rest.
 2. **Stops:** use daily-close stops at the listed levels. Do not widen a stop after entry.
@@ -400,32 +448,39 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 4. **Time stop:** at the end of week 3, exit any position that is below its entry price **and** below its 20-day average; the thesis is not working.
 5. **Portfolio kill-switch:** if S&P 500 closes the week below 7,000 (about 5% below Friday's close), or the VIX closes above 32 (above its 52-week high of 31.0), cut every position by half and reassess.
 6. **Weekly review (every Friday):** check news and any rating changes; replace a stock only if a stop is hit or its thesis breaks (for example a guidance cut), never because it is up.
-7. **Exit:** close the remainder in the Dec 7–14 window. If you invest from India, US stocks need a broker that supports international investing (LRS), and your return will also move with the rupee/dollar rate; check taxes with a professional.
+7. **Exit:** close the remainder by Mon Dec 7, the last session before the Fed (US) and the Dec 4 RBI decision (India). Hold to Dec 11 only if every remaining position is above its trailing stop. If you invest from India, US stocks need a broker that supports international investing (LRS), and your return will also move with the rupee/dollar rate; check taxes with a professional.
 
 ### Calendar
 | Date | Event |
 |---|---|
 | Mon Nov 9 | First entries (half or third positions per each stock's plan). |
-| Mid-Nov | October CPI (check the BLS calendar for the exact date): the key input for the Dec rate decision. |
+| Mon Nov 9 (after the close) | Hims & Hers earnings, a headline risk for Lilly. |
+| Tue Nov 10 | October CPI at 8:30 ET (per third-party calendars of the BLS schedule; confirm on bls.gov). Visa dividend record date. |
+| Tue Nov 17 | Nvidia earnings after the close (confirmed in the company's Oct 28 release): a swing event for the AI trade and for Arista and Zebra. |
 | Thu Nov 26 | US markets closed (Thanksgiving); thin trading around it. |
 | Early Dec | November jobs report; also several of the rejected software names report (CRM Dec 2, CRWD Dec 1). |
-| Dec 8–9 | FOMC meeting: markets price ~78% odds of a 25 bp hike. **Highest-risk date in the window.** |
-| Dec 7–14 | Planned exit window (4–5 weeks from entry). |
+| Mon Dec 7 | **Preferred exit date** (4 weeks): the last session before the Fed. |
+| Dec 8–9 | FOMC meeting: markets price ~78% odds of a 25 bp hike. **Highest-risk days in the window.** |
+| Thu Dec 10 | November CPI at 8:30 ET (same caveat on the date). |
+| Fri Dec 11 | Latest exit (5 weeks) if you chose to hold through the Fed with trailing stops intact. |
 
-## 8. What would change my view
+## 9. What would change my view
 
 - **Bearish:** S&P 500 closes the week below 7,000 (about 5% below Friday's close), or the VIX closes above 32 (above its 52-week high of 31.0). A guidance cut, regulator action or rating downgrade from several brokers on any holding. A hawkish Fed surprise (a 50 bp move or a signal of repeated hikes).
 - **Bullish:** The VIX falling back below 20 and the Nasdaq recovering its 50-day average would favour adding to the rebound sleeve (Arista, Zebra).
 
-## 9. Verification log (Nov 7)
+## 10. Verification log (Nov 7)
 
 - **Re-checked against fresh Yahoo data:** all 30 prices match the latest close; every derived number (stops, targets, buy zones, weights, R:R, sector mix) was recomputed from the same inputs.
 - **Corrected:** nine analyst-count claims (for example "26 of 29 Buy") mixed the target-count with the rating-count; they now use the rating counts from Yahoo's recommendation trend. Kotak, Visa, Mastercard, KDP and Arista text was updated after checking company releases and news.
 - **Confirmed by independent sources:** Kotak Q2 profit and NIM; Visa Q4 and the 16% dividend rise; Mastercard Q3 services +19%; KDP Q3 results; Arista Q3 revenue and EPS; the RBI repo hike to 5.50% on Oct 7; the Nifty/Sensex levels (Yahoo plus DSIJ).
-- **Not confirmed:** the Lilly/Hims deal terms (only headlines), Brent crude price on Nov 6, post-earnings share moves for Arista and Humana, and exact dates for US CPI and the RBI December meeting.
+- **Cross-checked with the installed trader skills (second pass):** `trader-analyst` pulled Q3 numbers straight from SEC filings for all 15 US names. Revenue growth and margins agree with the Yahoo figures used, except Nasdaq (SEC: revenue +20.9%, operating margin 30.6%, not +13% and 51%) and Hilton (SEC operating margin 27.3% of total revenues, not 67%); both were corrected. It also showed Lilly's revenue growth slowing (+55.5%, +47.7%, +38.6%), now flagged. `trader-news` supplied fresh headlines and daily moves (Arista, Zebra and KDP price paths were added). It also exposed a Yahoo quote glitch for Hilton (a stale 376.53 price); the daily closes used here are correct.
+- **Probability correction:** an earlier draft said 60–65% chance of a positive five weeks. The Monte Carlo in section 7 does not support that for the US (about 55% at normal drift). The headline numbers were lowered.
+- **Calendar now confirmed:** RBI decision Dec 4 (official schedule), Nvidia earnings Nov 17 (company release), October CPI Nov 10 (third-party calendars; confirm on bls.gov).
+- **Not confirmed:** the Lilly/Hims deal terms (only headlines), Brent crude price on Nov 6, and the exact BLS CPI dates.
 - **Known limits:** Yahoo analyst targets lag price; several Indian figures come from aggregator sites; the walk-forward test carries survivorship bias.
 
-## 10. Sources and data notes
+## 11. Sources and data notes
 
 - Prices, volumes, fundamentals and analyst data: Yahoo Finance chart and quote-summary endpoints (pulled Nov 7, 2026). Index membership: Wikipedia S&P 500 list.
 - Market context: [CNBC, Nov 5 selloff](https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html), [Yahoo Finance live blog, Nov 6](https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html), [CNBC on the VIX](https://www.cnbc.com/2026/11/06/wall-streets-fear-gauge-may-be-flashing-a-buy-sign.html), [Reuters via Business Recorder on the Fed](https://www.brecorder.com/news/40447788/fed-seen-sticking-to-december-rate-hike-after-jobs-data), [DSIJ on the Nifty rally](https://insights.dsij.in/dsijarticledetail/nifty-50-reclaims-25000-sensex-surges-over-1700-points-on-7th-day-of-gains-60349).
