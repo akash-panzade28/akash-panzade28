@@ -14,7 +14,7 @@
 
 **Where the market is (Nov 6 close):** the Nifty 50 closed at 25,030 (+2.0% on the day, 7 straight gains, +10.7% in a month) and the Sensex at 81,028. The Nifty is above its 50-day (23,248) and 200-day (23,999) averages but still 4.9% below its 52-week high of 26,329. India VIX is 17.5 (up 26% in a month). Banks and financials led the latest leg, and the rally continued despite the global tech rout (DSIJ).
 
-**Drivers cited:** foreign investors turned buyers after a long selling stretch (one report: ₹7,284 cr of FPI buying), Brent crude easing from the highs (about $94-95 in one report, after a spike toward $118 in another; sources disagree), hopes for US–Iran talks, and better-than-expected September-quarter earnings. One source reports the RBI raised the repo rate by 25 bp to 5.50%; I could only find that in a single outlet, so verify it against the RBI statement.
+**Drivers cited:** foreign investors turned buyers after a long selling stretch (one report: ₹7,284 cr of FPI buying), Brent crude easing from the highs (reports range from about $94-95 to a spike near $118; I could not confirm a dated price, so treat crude levels as approximate), hopes for US–Iran talks, and better-than-expected September-quarter earnings. The RBI raised the repo rate by 25 bp to 5.50% on Oct 7 (first hike since Feb 2023, stance changed to "calibrated tightening"), which several outlets confirm; that matters for banks and NBFCs.
 
 **What this means for the pick list:** the market has run 10.7% in a month, so a pause or pullback is more likely than usual. The list leans on stocks that have just reported Q2 results (so earnings risk is behind them), spreads across 9 industry groups, and uses staggered entries for stocks that are already extended (ICICI Bank, TVS Motor).
 
@@ -103,7 +103,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 **Evidence**
 - Q2 FY27 (Oct 24): standalone profit ₹4,212 cr (+29.5%); consolidated ₹5,645 cr (+26.3%); NII +15.7% to ₹8,459 cr.
 - Gross NPA 1.04%, net NPA 0.24%. NIM fell to 4.31% from 4.54%, which management links to FCNR(B) deposits and may bottom (Kotak Neo).
-- Jefferies target ₹520 (from ₹460), JPMorgan ₹492; 32 of 38 analysts Buy, mean ₹495. Price is 1.2% below its high.
+- Jefferies target ₹520 (from ₹460), JPMorgan ₹492; 32 of 37 analysts Buy, mean ₹495. Price is 1.2% below its high.
 
 **Catalyst:** NIM recovery as FCNR deposits are deployed; foreign inflows into banks.
 
@@ -223,7 +223,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 **Evidence**
 - Q2 FY27 (Oct 26): volume 963,143 tonnes (+13%, record), revenue ~₹7,000 cr (+34%), EBITDA +29%, profit ~₹380 cr (+27%).
 - Management kept FY27 guidance: double-digit H2 volume growth and 20% EBITDA growth.
-- 18 of 19 analysts Buy; mean target ₹2,381 (+9%).
+- 18 of 20 analysts Buy; mean target ₹2,381 (+9%).
 
 **Catalyst:** H2 volume ramp and steel-price stability.
 
@@ -238,7 +238,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 
 | Price | 1m / 3m / 6m | vs 52w high | RSI(14) | vs 20-day avg | Fwd P/E | Rev. growth | Op. margin | Beta (1y) | 25-day σ |
 |---|---|---|---|---|---|---|---|---|---|
-| ₹2,079 | +12.4% / +17.0% / +62.4% | -1.9% | 66 | +6.0% | 28 | +55% | 16% | 1.02 | 10.4% |
+| ₹2,079 | +12.4% / +17.0% / +62.4% | -1.9% | 66 | +6.0% | 28 | +55% (incl. Encora) | 16% | 1.02 | 10.4% |
 
 **Evidence**
 - Q2 FY27 (Oct 23-24): revenue ₹6,171 cr (+53.6%), EBIT +67.8%, order intake $1.04B, FY27 EBIT-margin guidance raised to 16% (Kotak Neo).
@@ -262,7 +262,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 
 **Evidence**
 - Q2 FY27 (Oct 30): profit ₹269 cr (+82%), revenue ₹1,191 cr (+57%), EBITDA margin 34.2%, ₹8 dividend; shares +5.5% (indiaipo.in).
-- 22 of 29 analysts Buy but the mean target (₹8,912) is only 1% above the price; August target range was ₹4,700-9,600.
+- 22 of 28 analysts Buy but the mean target (₹8,912) is only 1% above the price; August target range was ₹4,700-9,600.
 - Positive in 72% of 25-day windows over two years.
 
 **Catalyst:** Capacity ramp and CDMO orders.
@@ -347,7 +347,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 
 **Catalyst:** AUM growth; credit-cost normalisation.
 
-**Risk:** Leverage (debt/equity 431%) makes it sensitive to funding costs if RBI is tightening (one source reports a 25 bp hike; not verified). The post-results pop faded. Two-year record is flat (median 25-day return 0.1%).
+**Risk:** Leverage (debt/equity 431%) makes it sensitive to funding costs now that the RBI has raised the repo rate 25 bp to 5.50% (Oct 7, first hike since Feb 2023, stance changed to calibrated tightening). The post-results pop faded. Two-year record is flat (median 25-day return 0.1%).
 
 **Trade plan:** buy half on Monday and half within the first week. Stop on a daily close below **₹445.01** (-6.3%). Take a third to a half off at **₹521.97** (+9.9%), then trail the rest under the 20-day average toward **₹568.99** (+19.8%). Event calendar: latest results already out (no earnings date inside the window).
 
@@ -414,7 +414,15 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 - **Bearish:** The Nifty closes below 23,250 (its 50-day average, 7% below Friday's close), or India VIX closes above 22. A guidance cut, regulator action or rating downgrade from several brokers on any holding. A sharp reversal of foreign flows, or Brent crude moving back above $100.
 - **Bullish:** Nifty reclaiming its 52-week high of 26,329 on strong volume would support adding to the extended names (ICICI Bank, TVS Motor).
 
-## 9. Sources and data notes
+## 9. Verification log (Nov 7)
+
+- **Re-checked against fresh Yahoo data:** all 30 prices match the latest close; every derived number (stops, targets, buy zones, weights, R:R, sector mix) was recomputed from the same inputs.
+- **Corrected:** nine analyst-count claims (for example "26 of 29 Buy") mixed the target-count with the rating-count; they now use the rating counts from Yahoo's recommendation trend. Kotak, Visa, Mastercard, KDP and Arista text was updated after checking company releases and news.
+- **Confirmed by independent sources:** Kotak Q2 profit and NIM; Visa Q4 and the 16% dividend rise; Mastercard Q3 services +19%; KDP Q3 results; Arista Q3 revenue and EPS; the RBI repo hike to 5.50% on Oct 7; the Nifty/Sensex levels (Yahoo plus DSIJ).
+- **Not confirmed:** the Lilly/Hims deal terms (only headlines), Brent crude price on Nov 6, post-earnings share moves for Arista and Humana, and exact dates for US CPI and the RBI December meeting.
+- **Known limits:** Yahoo analyst targets lag price; several Indian figures come from aggregator sites; the walk-forward test carries survivorship bias.
+
+## 10. Sources and data notes
 
 - Prices, volumes, fundamentals and analyst data: Yahoo Finance chart and quote-summary endpoints (pulled Nov 7, 2026). Index membership: NSE Nifty 500 constituent file (archives.nseindia.com).
 - Market context: [CNBC, Nov 5 selloff](https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html), [Yahoo Finance live blog, Nov 6](https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html), [CNBC on the VIX](https://www.cnbc.com/2026/11/06/wall-streets-fear-gauge-may-be-flashing-a-buy-sign.html), [Reuters via Business Recorder on the Fed](https://www.brecorder.com/news/40447788/fed-seen-sticking-to-december-rate-hike-after-jobs-data), [DSIJ on the Nifty rally](https://insights.dsij.in/dsijarticledetail/nifty-50-reclaims-25000-sensex-surges-over-1700-points-on-7th-day-of-gains-60349).

@@ -83,7 +83,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 | $291.31 | +6.9% / +17.5% / +44.5% | -3.8% | 59 | +1.7% | 18 | +10% | 40% | -0.01 | 6.8% |
 
 **Evidence**
-- Forward P/E 18, operating margin 40%, revenue +10%; 23 of 26 analysts Buy.
+- Forward P/E 18, operating margin 40%, revenue +10%; 23 of 29 analysts Buy.
 - Argus raised its target to $320 from $270 on Nov 6 (MT Newswires). Q3 reported Oct 30.
 - Beta about 0 over the last year: it behaved independently of the index drawdowns.
 
@@ -103,8 +103,8 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 | $422.65 | +12.7% / +17.0% / +32.6% | -4.4% | 62 | +3.4% | 25 | +13% | 64% | 0.35 | 6.9% |
 
 **Evidence**
-- Visa raised its dividend 16% (TIKR, Nov 6); FQ4 earnings reported with strong growth (Simply Wall St, Nov 7).
-- Revenue +13%, operating margin 64%, 36 of 37 analysts Buy; mean target $443 (+5%).
+- Fiscal Q4 reported Oct 27: net revenue about $12.1B (+13%); the quarterly dividend was raised 16% to $0.78 (record date Nov 10, payable Dec 1). Shares slipped as much as 2.3% after hours on the print.
+- Revenue +13%, operating margin 64%, 36 of 40 analysts Buy; mean target $443 (+5%).
 - Beta 0.35.
 
 **Catalyst:** Dividend increase; cross-border travel volumes into the holidays.
@@ -143,8 +143,8 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 | $652.70 | +13.6% / +15.9% / +31.7% | -4.3% | 63 | +4.0% | 28 | +14% | 61% | 0.31 | 7.1% |
 
 **Evidence**
-- Services revenue +19% in Q3 (Zacks, Nov 6); a TIKR headline on Nov 6 reads 'Mastercard Hit a Record as Visa Raised Its Dividend 16%'.
-- Operating margin 61%, earnings growth 22%; 36 of 37 analysts Buy, mean target $708 (+8%).
+- Q3 reported Oct 29: value-added services revenue +19% and total net revenue about $9.8B (+14%), per Mastercard's filings and press coverage; a TIKR headline on Nov 6 reads 'Mastercard Hit a Record as Visa Raised Its Dividend 16%'.
+- Operating margin 61%, earnings growth 22%; 36 of 40 analysts Buy, mean target $708 (+8%).
 - Beta 0.3 over the last year; next earnings Jan 28.
 
 **Catalyst:** Dividend/buyback cash returns; holiday-season spending data.
@@ -243,7 +243,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 | $107.12 | +16.0% / +12.0% / +20.5% | -3.9% | 78 | +5.9% | 23 | +13% | 51% | 0.60 | 8.2% |
 
 **Evidence**
-- Revenue +13%, earnings +32%, operating margin 51%; 14 of 16 analysts Buy, mean target $115 (+8%).
+- Revenue +13%, earnings +32%, operating margin 51%; 14 of 18 analysts Buy, mean target $115 (+8%).
 - Price up 16% in a month; 3.9% below high.
 - Next earnings Jan 28.
 
@@ -284,7 +284,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 
 **Evidence**
 - On Nov 5 the board authorised $5 billion of share repurchases and kept the dividend (Business Wire).
-- 23 of 25 analysts Buy, mean rating 1.4, mean target $752 (+8%); price 2.4% below its 52-week high.
+- 23 of 27 analysts Buy, mean rating 1.4, mean target $752 (+8%); price 2.4% below its 52-week high.
 - Forward P/E 25, revenue +9%, operating margin 20%.
 
 **Catalyst:** Buyback execution; strong relative strength (6-month +49%). Next earnings Jan 28, outside the window.
@@ -300,16 +300,16 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 
 | Price | 1m / 3m / 6m | vs 52w high | RSI(14) | vs 20-day avg | Fwd P/E | Rev. growth | Op. margin | Beta (1y) | 25-day σ |
 |---|---|---|---|---|---|---|---|---|---|
-| $36.63 | +17.2% / +25.0% / +27.1% | -3.3% | 63 | +4.9% | 14 | +71% | 19% | 0.02 | 9.4% |
+| $36.63 | +17.2% / +25.0% / +27.1% | -3.3% | 63 | +4.9% | 14 | +71% (incl. JDE Peet's; legacy +8.6%) | 19% | 0.02 | 9.4% |
 
 **Evidence**
-- Closed its roughly $18B JDE Peet's acquisition on April 1 and plans to split into Beverage Co. and Global Coffee Co. by early 2027 (Zacks and Nasdaq.com via search).
-- Q3 reported Nov 3: beverage strength offset coffee weakness (MarketScreener headline).
-- 13 of 18 analysts Buy; mean target $38 (+4%); up 25% in 3 months.
+- Q3 reported Nov 3: net sales +70.6% to $7.34B (JDE Peet's, acquired April 1, contributed $2.6B; legacy KDP sales +8.6%), adjusted EPS +22.2% to $0.66, full-year guidance reaffirmed. Investing.com's headline notes the shares fell premarket.
+- Management now expects a more gradual category recovery, with legacy KDP EPS growth of 3-5%; the split into Beverage Co. and Global Coffee Co. is still planned for early 2027.
+- 13 of 18 analysts Buy; mean target $38 (+4%); the stock is up 25% in 3 months.
 
 **Catalyst:** Spin-off news flow; staples rotation.
 
-**Risk:** Coffee margin pressure; high short interest (6.9%); stock has already re-rated. The mean analyst target barely exceeds the price.
+**Risk:** A slower-than-planned category recovery and only 3-5% legacy EPS growth; high short interest (6.9%); the stock has already re-rated and the mean target barely exceeds the price. The +71% revenue growth in Yahoo data is acquisition-driven.
 
 **Trade plan:** buy half on Monday and half within the first week. Stop on a daily close below **$33.18** (-9.4%). Take a third to a half off at **$39.22** (+7.1%), then trail the rest under the 20-day average toward **$41.81** (+14.1%). Event calendar: latest results already out (no earnings date inside the window).
 
@@ -324,8 +324,8 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 
 **Evidence**
 - Revenue growth 39% y/y, operating margin 54%, ROE 86% (Yahoo Finance fundamentals).
-- Q3 reported Oct 29, so earnings risk is behind it; 26 of 29 analysts rate Buy (mean target $1,442, high $1,690).
-- Nov 6 headlines: Lilly chose Hims & Hers to sell its obesity drugs (Investor's Business Daily, GuruFocus).
+- Q3 reported Oct 29, so earnings risk is behind it; 26 of 31 analysts rate Buy (mean target $1,442, high $1,690).
+- Nov 6 headlines (Investor's Business Daily, GuruFocus, TIKR) report Lilly selecting Hims & Hers to sell its obesity drugs. I could not confirm the terms or size of the deal.
 
 **Catalyst:** Obesity-drug distribution expansion; momentum (+43% in 6 months, 6.8% below its 52-week high).
 
@@ -363,7 +363,7 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 | $170.80 | -19.0% / -10.8% / +20.5% | -21.4% | 44 | -5.4% | 30 | +58% | 45% | 2.32 | 17.3% |
 
 **Evidence**
-- Posted its fastest growth since the IPO in Q3 (Nov 6 coverage). Revenue +58%, earnings +82%, operating margin 45%.
+- Q3 (Nov 3): revenue $3.66B vs $3.33B consensus, non-GAAP EPS $1.20 vs $1.08, Q4 revenue guide $3.9-4.0B above the Street; growth about 58-61% (sources differ). I could not find the post-earnings price reaction. Yahoo data: earnings +82%, operating margin 45%.
 - 29 Buy ratings against 1 Hold in the latest recommendation trend; mean target $248 (+45%), forward P/E 30.
 - Price is 21% below its high, RSI 44 and 5% below its 20-day line.
 
@@ -417,7 +417,15 @@ Weights are for the stock sleeve only. Start with **10–20% of your intended ca
 - **Bearish:** S&P 500 closes the week below 7,000 (about 5% below Friday's close), or the VIX closes above 32 (above its 52-week high of 31.0). A guidance cut, regulator action or rating downgrade from several brokers on any holding. A hawkish Fed surprise (a 50 bp move or a signal of repeated hikes).
 - **Bullish:** The VIX falling back below 20 and the Nasdaq recovering its 50-day average would favour adding to the rebound sleeve (Arista, Zebra).
 
-## 9. Sources and data notes
+## 9. Verification log (Nov 7)
+
+- **Re-checked against fresh Yahoo data:** all 30 prices match the latest close; every derived number (stops, targets, buy zones, weights, R:R, sector mix) was recomputed from the same inputs.
+- **Corrected:** nine analyst-count claims (for example "26 of 29 Buy") mixed the target-count with the rating-count; they now use the rating counts from Yahoo's recommendation trend. Kotak, Visa, Mastercard, KDP and Arista text was updated after checking company releases and news.
+- **Confirmed by independent sources:** Kotak Q2 profit and NIM; Visa Q4 and the 16% dividend rise; Mastercard Q3 services +19%; KDP Q3 results; Arista Q3 revenue and EPS; the RBI repo hike to 5.50% on Oct 7; the Nifty/Sensex levels (Yahoo plus DSIJ).
+- **Not confirmed:** the Lilly/Hims deal terms (only headlines), Brent crude price on Nov 6, post-earnings share moves for Arista and Humana, and exact dates for US CPI and the RBI December meeting.
+- **Known limits:** Yahoo analyst targets lag price; several Indian figures come from aggregator sites; the walk-forward test carries survivorship bias.
+
+## 10. Sources and data notes
 
 - Prices, volumes, fundamentals and analyst data: Yahoo Finance chart and quote-summary endpoints (pulled Nov 7, 2026). Index membership: Wikipedia S&P 500 list.
 - Market context: [CNBC, Nov 5 selloff](https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html), [Yahoo Finance live blog, Nov 6](https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html), [CNBC on the VIX](https://www.cnbc.com/2026/11/06/wall-streets-fear-gauge-may-be-flashing-a-buy-sign.html), [Reuters via Business Recorder on the Fed](https://www.brecorder.com/news/40447788/fed-seen-sticking-to-december-rate-hike-after-jobs-data), [DSIJ on the Nifty rally](https://insights.dsij.in/dsijarticledetail/nifty-50-reclaims-25000-sensex-surges-over-1700-points-on-7th-day-of-gains-60349).
