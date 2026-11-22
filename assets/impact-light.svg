@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 852" role="img" aria-labelledby="t d">
+  <title id="t">Impact</title>
+  <desc id="d">Agent platform: 4 clouds, 1 platform, EKS, AKS, GKE, on-prem tenant isolation · RBAC; −40% manual ops, harness + checkpoint recovery on agent runs; 10K+ daily recalls, persistent agent memory Graphiti · Postgres; +35% continuity, long-horizon reasoning across sessions; Weeks → days, new-agent onboarding 6 frameworks, one API. Autonomous agents: Notebook agents, create/complete/delete Jupyter, end to end; Workspace agents, Teradata workspace integration via harness; Scheduled agents, cron + event triggers retries · resume; SDLC agents, PR review · features e2e pipeline tests; Full-stack features, React · TypeScript UI Go · Python services. Evals · routing · deploy: −50% debugging, Opik + OpenTelemetry traces on every run; +70% traceability, structured traces solve rate · failures; Right model per task, eval-based routing AutoLLM · cost/latency; +55% consistency, deploys across clusters KServe · NIM · Helm; Deploy anywhere, automated rollout to any cluster or on-prem. Healthcare ai: 60M+ claims, 3-month cost of care forecast · anomalies; 48% → 81%, member risk coverage 15x targeted outreach; $1M+ a year, clinical risk models underwriting value; 91% clinical QA, LLaMA-2 · RAG · QLoRA 3x lower inference cost; $300K saved, recurring high-cost claimant prediction. Data &amp; nlp: 95% NL2SQL, fine-tuned LLM + knowledge graph; −31% latency, vs manual SQL workflow baseline; 8–10 FTEs saved, ticket triage BERT · XGBoost; RMSE 9.05, claims forecasting Prophet · SARIMA; 82% ROUGE-L, 500+ summaries query-based NLP. Research: 99.3% detection, ransomware quality IEEE VLSID 2024; 530 ms to detect, decoy files + inode monitoring; 98 ms to contain, 35 of 5,000 files lost, at most; +23% relevance, multilingual retrieval BM25 · Indic-BERT; −45% query time, 50K+ documents Indian-language IR.</desc>
+  <style>
+    :root{--bg:#FFFFFF;--card:#F1F5F9;--fg:#0F172A;--muted:#475569;--border:#CBD5E1;--accent:#15803D;--accent2:#0369A1;--accent3:#7C3AED;--accent4:#B45309;--accent5:#DB2777;--accent6:#0F766E}
+    .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+    .t{font-size:14px;font-weight:800;fill:var(--fg)}
+    .d{font-size:9.6px;fill:var(--muted)}
+    .rl{font-size:10.5px;letter-spacing:1.5px}
+    .grow,.shrink{transform-box:fill-box;transform-origin:left center;animation:4s cubic-bezier(.22,1,.36,1) infinite}
+    .grow{animation-name:grow}.shrink{animation-name:shrink}
+    .spin{transform-box:fill-box;transform-origin:center;animation:spin 3.2s linear infinite}
+    .blink{animation:blink 1.6s ease-in-out infinite}
+    .hop{animation:hop 2.6s ease-in-out infinite}
+    .pulse{transform-box:fill-box;transform-origin:center;opacity:0;animation:pulse 2.4s ease-out infinite}
+    .flowline{animation:flow 1.2s linear infinite}
+    .pop{transform-box:fill-box;transform-origin:center;animation:pop 2s ease-in-out infinite}
+    @keyframes grow{0%,15%{transform:scaleX(.55)}60%,100%{transform:scaleX(1)}}
+    @keyframes shrink{0%,15%{transform:scaleX(1)}60%,100%{transform:scaleX(var(--f))}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+    @keyframes hop{0%{transform:translateX(0);opacity:0}12%,85%{opacity:1}100%{transform:translateX(118px);opacity:0}}
+    @keyframes pulse{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(2.4)}}
+    @keyframes flow{to{stroke-dashoffset:-12}}
+    @keyframes pop{0%,100%{transform:scale(1)}50%{transform:scale(1.3)}}
+    @media (prefers-reduced-motion:reduce){.grow,.shrink,.spin,.blink,.hop,.pulse,.flowline,.pop{animation:none}}
+  </style>
+  <rect x=".5" y=".5" width="899" height="851" rx="14" fill="var(--bg)" stroke="var(--border)"/>
+  <text x="30" y="31" class="mono rl" fill="var(--accent3)">AGENT PLATFORM</text>
+  <g style="--c:var(--accent3)">
+    <rect x="30" y="38" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(46 50)"><g class="flowline" stroke="var(--c)" stroke-width="1.5" stroke-dasharray="3 3"><path d="M65 13L20 4"/><path d="M65 13L20 22"/><path d="M65 13L110 4"/><path d="M65 13L110 22"/></g><circle cx="20" cy="4" r="3.5" fill="var(--fg)"/><circle cx="20" cy="22" r="3.5" fill="var(--fg)"/><circle cx="110" cy="4" r="3.5" fill="var(--fg)"/><circle cx="110" cy="22" r="3.5" fill="var(--fg)"/><circle class="pulse" style="animation-delay:0.0s" cx="65" cy="13" r="6" fill="var(--c)"/><circle cx="65" cy="13" r="6" fill="var(--c)"/></g>
+    <text x="46" y="98" class="sans t">4 clouds, 1 platform</text>
+    <text x="46" y="117" class="mono d">EKS, AKS, GKE, on-prem</text>
+    <text x="46" y="132" class="mono d">tenant isolation · RBAC</text>
+  </g>
+  <g style="--c:var(--accent3)">
+    <rect x="200" y="38" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(216 50)"><rect x="0" y="9" width="130" height="8" rx="4" fill="var(--border)"/><rect class="shrink" style="--f:0.6;animation-delay:0.3s" x="0" y="9" width="130" height="8" rx="4" fill="var(--c)"/></g>
+    <text x="216" y="98" class="sans t">−40% manual ops</text>
+    <text x="216" y="117" class="mono d">harness + checkpoint</text>
+    <text x="216" y="132" class="mono d">recovery on agent runs</text>
+  </g>
+  <g style="--c:var(--accent3)">
+    <rect x="370" y="38" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(386 50)"><circle class="pop" style="animation-delay:0.00s" cx="8" cy="13" r="5" fill="var(--c)"/><circle class="pop" style="animation-delay:0.25s" cx="31" cy="13" r="5" fill="var(--c)"/><circle class="pop" style="animation-delay:0.50s" cx="54" cy="13" r="5" fill="var(--c)"/><circle class="pop" style="animation-delay:0.75s" cx="76" cy="13" r="5" fill="var(--c)"/><circle class="pop" style="animation-delay:1.00s" cx="99" cy="13" r="5" fill="var(--c)"/><circle class="pop" style="animation-delay:1.25s" cx="122" cy="13" r="5" fill="var(--c)"/></g>
+    <text x="386" y="98" class="sans t">10K+ daily recalls</text>
+    <text x="386" y="117" class="mono d">persistent agent memory</text>
+    <text x="386" y="132" class="mono d">Graphiti · Postgres</text>
+  </g>
+  <g style="--c:var(--accent3)">
+    <rect x="540" y="38" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(556 50)"><rect x="0" y="9" width="130" height="8" rx="4" fill="var(--border)"/><rect class="grow" style="--f:0.82;animation-delay:0.9s" x="0" y="9" width="107" height="8" rx="4" fill="var(--c)"/></g>
+    <text x="556" y="98" class="sans t">+35% continuity</text>
+    <text x="556" y="117" class="mono d">long-horizon reasoning</text>
+    <text x="556" y="132" class="mono d">across sessions</text>
+  </g>
+  <g style="--c:var(--accent3)">
+    <rect x="710" y="38" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(726 50)"><path d="M6 13H124" stroke="var(--c)" stroke-opacity=".45" stroke-width="2"/><circle cx="6" cy="13" r="5" fill="var(--card)" stroke="var(--c)" stroke-width="2"/><circle cx="65" cy="13" r="5" fill="var(--card)" stroke="var(--c)" stroke-width="2"/><circle cx="124" cy="13" r="5" fill="var(--card)" stroke="var(--c)" stroke-width="2"/><circle class="hop" style="animation-delay:1.2s" cx="6" cy="13" r="3" fill="var(--fg)"/></g>
+    <text x="726" y="98" class="sans t">Weeks → days</text>
+    <text x="726" y="117" class="mono d">new-agent onboarding</text>
+    <text x="726" y="132" class="mono d">6 frameworks, one API</text>
+  </g>
+  <text x="30" y="169" class="mono rl" fill="var(--accent6)">AUTONOMOUS AGENTS</text>
+  <g style="--c:var(--accent6)">
+    <rect x="30" y="176" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(46 188)"><path d="M0 22L16 17L30 19L46 11L62 14L78 7L92 10L104 4" fill="none" stroke="var(--c)" stroke-width="2" stroke-linejoin="round"/><path d="M104 4L118 2L130 5" fill="none" stroke="var(--c)" stroke-width="2" stroke-dasharray="2 3"/><circle class="blink" style="animation-delay:0.0s" cx="104" cy="4" r="3" fill="var(--fg)"/></g>
+    <text x="46" y="236" class="sans t">Notebook agents</text>
+    <text x="46" y="255" class="mono d">create/complete/delete</text>
+    <text x="46" y="270" class="mono d">Jupyter, end to end</text>
+  </g>
+  <g style="--c:var(--accent6)">
+    <rect x="200" y="176" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(216 188)"><g class="flowline" stroke="var(--c)" stroke-width="1.5" stroke-dasharray="3 3"><path d="M65 13L20 13"/><path d="M65 13L110 4"/><path d="M65 13L110 22"/></g><circle cx="20" cy="13" r="3.5" fill="var(--fg)"/><circle cx="110" cy="4" r="3.5" fill="var(--fg)"/><circle cx="110" cy="22" r="3.5" fill="var(--fg)"/><circle class="pulse" style="animation-delay:0.3s" cx="65" cy="13" r="6" fill="var(--c)"/><circle cx="65" cy="13" r="6" fill="var(--c)"/></g>
+    <text x="216" y="236" class="sans t">Workspace agents</text>
+    <text x="216" y="255" class="mono d">Teradata workspace</text>
+    <text x="216" y="270" class="mono d">integration via harness</text>
+  </g>
+  <g style="--c:var(--accent6)">
+    <rect x="370" y="176" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(386 188)"><circle cx="13" cy="13" r="11" fill="none" stroke="var(--border)" stroke-width="4"/><circle cx="13" cy="13" r="11" fill="none" stroke="var(--c)" stroke-width="4" stroke-linecap="round" stroke-dasharray="51.8 69.1" transform="rotate(-90 13 13)"/><g class="spin" style="animation-delay:0.6s"><circle cx="13" cy="13" r="11" fill="none"/><circle cx="13" cy="2" r="2.4" fill="var(--fg)"/></g><path d="M34 13H130" stroke="var(--border)" stroke-dasharray="2 4"/></g>
+    <text x="386" y="236" class="sans t">Scheduled agents</text>
+    <text x="386" y="255" class="mono d">cron + event triggers</text>
+    <text x="386" y="270" class="mono d">retries · resume</text>
+  </g>
+  <g style="--c:var(--accent6)">
+    <rect x="540" y="176" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(556 188)"><path d="M6 13H124" stroke="var(--c)" stroke-opacity=".45" stroke-width="2"/><circle cx="6" cy="13" r="5" fill="var(--card)" stroke="var(--c)" stroke-width="2"/><circle cx="45" cy="13" r="5" fill="var(--card)" stroke="var(--c)" stroke-width="2"/><circle cx="85" cy="13" r="5" fill="var(--card)" stroke="var(--c)" stroke-width="2"/><circle cx="124" cy="13" r="5" fill="var(--card)" stroke="var(--c)" stroke-width="2"/><circle class="hop" style="animation-delay:0.9s" cx="6" cy="13" r="3" fill="var(--fg)"/></g>
+    <text x="556" y="236" class="sans t">SDLC agents</text>
+    <text x="556" y="255" class="mono d">PR review · features</text>
+    <text x="556" y="270" class="mono d">e2e pipeline tests</text>
+  </g>
+  <g style="--c:var(--accent6)">
+    <rect x="710" y="176" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(726 188)"><circle class="pop" style="animation-delay:0.00s" cx="8" cy="13" r="5" fill="var(--c)"/><circle class="pop" style="animation-delay:0.25s" cx="36" cy="13" r="5" fill="var(--c)"/><circle class="pop" style="animation-delay:0.50s" cx="65" cy="13" r="5" fill="var(--c)"/><circle class="pop" style="animation-delay:0.75s" cx="94" cy="13" r="5" fill="var(--c)"/><circle class="pop" style="animation-delay:1.00s" cx="122" cy="13" r="5" fill="var(--c)"/></g>
+    <text x="726" y="236" class="sans t">Full-stack features</text>
+    <text x="726" y="255" class="mono d">React · TypeScript UI</text>
+    <text x="726" y="270" class="mono d">Go · Python services</text>
+  </g>
+  <text x="30" y="307" class="mono rl" fill="var(--accent2)">EVALS · ROUTING · DEPLOY</text>
+  <g style="--c:var(--accent2)">
+    <rect x="30" y="314" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(46 326)"><rect x="0" y="9" width="130" height="8" rx="4" fill="var(--border)"/><rect class="shrink" style="--f:0.5;animation-delay:0.0s" x="0" y="9" width="130" height="8" rx="4" fill="var(--c)"/></g>
+    <text x="46" y="374" class="sans t">−50% debugging</text>
+    <text x="46" y="393" class="mono d">Opik + OpenTelemetry</text>
+    <text x="46" y="408" class="mono d">traces on every run</text>
+  </g>
+  <g style="--c:var(--accent2)">
+    <rect x="200" y="314" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(216 326)"><rect x="0" y="9" width="130" height="8" rx="4" fill="var(--border)"/><rect class="grow" style="--f:0.85;animation-delay:0.3s" x="0" y="9" width="110" height="8" rx="4" fill="var(--c)"/></g>
+    <text x="216" y="374" class="sans t">+70% traceability</text>
+    <text x="216" y="393" class="mono d">structured traces</text>
+    <text x="216" y="408" class="mono d">solve rate · failures</text>
+  </g>
+  <g style="--c:var(--accent2)">
+    <rect x="370" y="314" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(386 326)"><path d="M6 13H124" stroke="var(--c)" stroke-opacity=".45" stroke-width="2"/><circle cx="6" cy="13" r="5" fill="var(--card)" stroke="var(--c)" stroke-width="2"/><circle cx="65" cy="13" r="5" fill="var(--card)" stroke="var(--c)" stroke-width="2"/><circle cx="124" cy="13" r="5" fill="var(--card)" stroke="var(--c)" stroke-width="2"/><circle class="hop" style="animation-delay:0.6s" cx="6" cy="13" r="3" fill="var(--fg)"/></g>
+    <text x="386" y="374" class="sans t">Right model per task</text>
+    <text x="386" y="393" class="mono d">eval-based routing</text>
+    <text x="386" y="408" class="mono d">AutoLLM · cost/latency</text>
+  </g>
+  <g style="--c:var(--accent2)">
+    <rect x="540" y="314" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(556 326)"><rect x="0" y="9" width="130" height="8" rx="4" fill="var(--border)"/><rect class="grow" style="--f:0.78;animation-delay:0.9s" x="0" y="9" width="101" height="8" rx="4" fill="var(--c)"/></g>
+    <text x="556" y="374" class="sans t">+55% consistency</text>
+    <text x="556" y="393" class="mono d">deploys across clusters</text>
+    <text x="556" y="408" class="mono d">KServe · NIM · Helm</text>
+  </g>
+  <g style="--c:var(--accent2)">
+    <rect x="710" y="314" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(726 326)"><g class="flowline" stroke="var(--c)" stroke-width="1.5" stroke-dasharray="3 3"><path d="M65 13L20 4"/><path d="M65 13L20 22"/><path d="M65 13L110 4"/><path d="M65 13L110 22"/></g><circle cx="20" cy="4" r="3.5" fill="var(--fg)"/><circle cx="20" cy="22" r="3.5" fill="var(--fg)"/><circle cx="110" cy="4" r="3.5" fill="var(--fg)"/><circle cx="110" cy="22" r="3.5" fill="var(--fg)"/><circle class="pulse" style="animation-delay:1.2s" cx="65" cy="13" r="6" fill="var(--c)"/><circle cx="65" cy="13" r="6" fill="var(--c)"/></g>
+    <text x="726" y="374" class="sans t">Deploy anywhere</text>
+    <text x="726" y="393" class="mono d">automated rollout to</text>
+    <text x="726" y="408" class="mono d">any cluster or on-prem</text>
+  </g>
+  <text x="30" y="445" class="mono rl" fill="var(--accent)">HEALTHCARE AI</text>
+  <g style="--c:var(--accent)">
+    <rect x="30" y="452" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(46 464)"><path d="M0 22L16 17L30 19L46 11L62 14L78 7L92 10L104 4" fill="none" stroke="var(--c)" stroke-width="2" stroke-linejoin="round"/><path d="M104 4L118 2L130 5" fill="none" stroke="var(--c)" stroke-width="2" stroke-dasharray="2 3"/><circle class="blink" style="animation-delay:0.0s" cx="104" cy="4" r="3" fill="var(--fg)"/></g>
+    <text x="46" y="512" class="sans t">60M+ claims</text>
+    <text x="46" y="531" class="mono d">3-month cost of care</text>
+    <text x="46" y="546" class="mono d">forecast · anomalies</text>
+  </g>
+  <g style="--c:var(--accent)">
+    <rect x="200" y="452" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(216 464)"><rect x="0" y="9" width="130" height="8" rx="4" fill="var(--border)"/><rect class="grow" style="--f:0.81;animation-delay:0.3s" x="0" y="9" width="105" height="8" rx="4" fill="var(--c)"/></g>
+    <text x="216" y="512" class="sans t">48% → 81%</text>
+    <text x="216" y="531" class="mono d">member risk coverage</text>
+    <text x="216" y="546" class="mono d">15x targeted outreach</text>
+  </g>
+  <g style="--c:var(--accent)">
+    <rect x="370" y="452" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(386 464)"><rect x="0" y="9" width="130" height="8" rx="4" fill="var(--border)"/><rect class="grow" style="--f:0.9;animation-delay:0.6s" x="0" y="9" width="117" height="8" rx="4" fill="var(--c)"/></g>
+    <text x="386" y="512" class="sans t">$1M+ a year</text>
+    <text x="386" y="531" class="mono d">clinical risk models</text>
+    <text x="386" y="546" class="mono d">underwriting value</text>
+  </g>
+  <g style="--c:var(--accent)">
+    <rect x="540" y="452" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(556 464)"><circle cx="13" cy="13" r="11" fill="none" stroke="var(--border)" stroke-width="4"/><circle cx="13" cy="13" r="11" fill="none" stroke="var(--c)" stroke-width="4" stroke-linecap="round" stroke-dasharray="62.9 69.1" transform="rotate(-90 13 13)"/><g class="spin" style="animation-delay:0.9s"><circle cx="13" cy="13" r="11" fill="none"/><circle cx="13" cy="2" r="2.4" fill="var(--fg)"/></g><path d="M34 13H130" stroke="var(--border)" stroke-dasharray="2 4"/></g>
+    <text x="556" y="512" class="sans t">91% clinical QA</text>
+    <text x="556" y="531" class="mono d">LLaMA-2 · RAG · QLoRA</text>
+    <text x="556" y="546" class="mono d">3x lower inference cost</text>
+  </g>
+  <g style="--c:var(--accent)">
+    <rect x="710" y="452" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(726 464)"><rect x="0" y="9" width="130" height="8" rx="4" fill="var(--border)"/><rect class="shrink" style="--f:0.7;animation-delay:1.2s" x="0" y="9" width="130" height="8" rx="4" fill="var(--c)"/></g>
+    <text x="726" y="512" class="sans t">$300K saved</text>
+    <text x="726" y="531" class="mono d">recurring high-cost</text>
+    <text x="726" y="546" class="mono d">claimant prediction</text>
+  </g>
+  <text x="30" y="583" class="mono rl" fill="var(--accent4)">DATA &amp; NLP</text>
+  <g style="--c:var(--accent4)">
+    <rect x="30" y="590" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(46 602)"><circle cx="13" cy="13" r="11" fill="none" stroke="var(--border)" stroke-width="4"/><circle cx="13" cy="13" r="11" fill="none" stroke="var(--c)" stroke-width="4" stroke-linecap="round" stroke-dasharray="65.7 69.1" transform="rotate(-90 13 13)"/><g class="spin" style="animation-delay:0.0s"><circle cx="13" cy="13" r="11" fill="none"/><circle cx="13" cy="2" r="2.4" fill="var(--fg)"/></g><path d="M34 13H130" stroke="var(--border)" stroke-dasharray="2 4"/></g>
+    <text x="46" y="650" class="sans t">95% NL2SQL</text>
+    <text x="46" y="669" class="mono d">fine-tuned LLM</text>
+    <text x="46" y="684" class="mono d">+ knowledge graph</text>
+  </g>
+  <g style="--c:var(--accent4)">
+    <rect x="200" y="590" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(216 602)"><rect x="0" y="9" width="130" height="8" rx="4" fill="var(--border)"/><rect class="shrink" style="--f:0.69;animation-delay:0.3s" x="0" y="9" width="130" height="8" rx="4" fill="var(--c)"/></g>
+    <text x="216" y="650" class="sans t">−31% latency</text>
+    <text x="216" y="669" class="mono d">vs manual SQL</text>
+    <text x="216" y="684" class="mono d">workflow baseline</text>
+  </g>
+  <g style="--c:var(--accent4)">
+    <rect x="370" y="590" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(386 602)"><circle class="pop" style="animation-delay:0.00s" cx="8" cy="13" r="5" fill="var(--c)"/><circle class="pop" style="animation-delay:0.25s" cx="36" cy="13" r="5" fill="var(--c)"/><circle class="pop" style="animation-delay:0.50s" cx="65" cy="13" r="5" fill="var(--c)"/><circle class="pop" style="animation-delay:0.75s" cx="94" cy="13" r="5" fill="var(--c)"/><circle class="pop" style="animation-delay:1.00s" cx="122" cy="13" r="5" fill="var(--c)"/></g>
+    <text x="386" y="650" class="sans t">8–10 FTEs saved</text>
+    <text x="386" y="669" class="mono d">ticket triage</text>
+    <text x="386" y="684" class="mono d">BERT · XGBoost</text>
+  </g>
+  <g style="--c:var(--accent4)">
+    <rect x="540" y="590" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(556 602)"><path d="M0 22L16 17L30 19L46 11L62 14L78 7L92 10L104 4" fill="none" stroke="var(--c)" stroke-width="2" stroke-linejoin="round"/><path d="M104 4L118 2L130 5" fill="none" stroke="var(--c)" stroke-width="2" stroke-dasharray="2 3"/><circle class="blink" style="animation-delay:0.9s" cx="104" cy="4" r="3" fill="var(--fg)"/></g>
+    <text x="556" y="650" class="sans t">RMSE 9.05</text>
+    <text x="556" y="669" class="mono d">claims forecasting</text>
+    <text x="556" y="684" class="mono d">Prophet · SARIMA</text>
+  </g>
+  <g style="--c:var(--accent4)">
+    <rect x="710" y="590" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(726 602)"><circle cx="13" cy="13" r="11" fill="none" stroke="var(--border)" stroke-width="4"/><circle cx="13" cy="13" r="11" fill="none" stroke="var(--c)" stroke-width="4" stroke-linecap="round" stroke-dasharray="56.7 69.1" transform="rotate(-90 13 13)"/><g class="spin" style="animation-delay:1.2s"><circle cx="13" cy="13" r="11" fill="none"/><circle cx="13" cy="2" r="2.4" fill="var(--fg)"/></g><path d="M34 13H130" stroke="var(--border)" stroke-dasharray="2 4"/></g>
+    <text x="726" y="650" class="sans t">82% ROUGE-L</text>
+    <text x="726" y="669" class="mono d">500+ summaries</text>
+    <text x="726" y="684" class="mono d">query-based NLP</text>
+  </g>
+  <text x="30" y="721" class="mono rl" fill="var(--accent5)">RESEARCH</text>
+  <g style="--c:var(--accent5)">
+    <rect x="30" y="728" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(46 740)"><circle cx="13" cy="13" r="11" fill="none" stroke="var(--border)" stroke-width="4"/><circle cx="13" cy="13" r="11" fill="none" stroke="var(--c)" stroke-width="4" stroke-linecap="round" stroke-dasharray="68.6 69.1" transform="rotate(-90 13 13)"/><g class="spin" style="animation-delay:0.0s"><circle cx="13" cy="13" r="11" fill="none"/><circle cx="13" cy="2" r="2.4" fill="var(--fg)"/></g><path d="M34 13H130" stroke="var(--border)" stroke-dasharray="2 4"/></g>
+    <text x="46" y="788" class="sans t">99.3% detection</text>
+    <text x="46" y="807" class="mono d">ransomware quality</text>
+    <text x="46" y="822" class="mono d">IEEE VLSID 2024</text>
+  </g>
+  <g style="--c:var(--accent5)">
+    <rect x="200" y="728" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(216 740)"><rect x="0" y="9" width="130" height="8" rx="4" fill="var(--border)"/><rect class="shrink" style="--f:0.35;animation-delay:0.3s" x="0" y="9" width="130" height="8" rx="4" fill="var(--c)"/></g>
+    <text x="216" y="788" class="sans t">530 ms to detect</text>
+    <text x="216" y="807" class="mono d">decoy files +</text>
+    <text x="216" y="822" class="mono d">inode monitoring</text>
+  </g>
+  <g style="--c:var(--accent5)">
+    <rect x="370" y="728" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(386 740)"><rect x="0" y="9" width="130" height="8" rx="4" fill="var(--border)"/><rect class="shrink" style="--f:0.2;animation-delay:0.6s" x="0" y="9" width="130" height="8" rx="4" fill="var(--c)"/></g>
+    <text x="386" y="788" class="sans t">98 ms to contain</text>
+    <text x="386" y="807" class="mono d">35 of 5,000 files</text>
+    <text x="386" y="822" class="mono d">lost, at most</text>
+  </g>
+  <g style="--c:var(--accent5)">
+    <rect x="540" y="728" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(556 740)"><rect x="0" y="9" width="130" height="8" rx="4" fill="var(--border)"/><rect class="grow" style="--f:0.73;animation-delay:0.9s" x="0" y="9" width="95" height="8" rx="4" fill="var(--c)"/></g>
+    <text x="556" y="788" class="sans t">+23% relevance</text>
+    <text x="556" y="807" class="mono d">multilingual retrieval</text>
+    <text x="556" y="822" class="mono d">BM25 · Indic-BERT</text>
+  </g>
+  <g style="--c:var(--accent5)">
+    <rect x="710" y="728" width="162" height="108" rx="10" fill="var(--card)" stroke="var(--border)"/>
+    <g transform="translate(726 740)"><rect x="0" y="9" width="130" height="8" rx="4" fill="var(--border)"/><rect class="shrink" style="--f:0.55;animation-delay:1.2s" x="0" y="9" width="130" height="8" rx="4" fill="var(--c)"/></g>
+    <text x="726" y="788" class="sans t">−45% query time</text>
+    <text x="726" y="807" class="mono d">50K+ documents</text>
+    <text x="726" y="822" class="mono d">Indian-language IR</text>
+  </g>
+</svg>

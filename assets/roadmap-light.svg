@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 748" role="img" aria-labelledby="t d">
+  <title id="t">Roadmap as a transit map</title>
+  <desc id="d">Thirteen lines of work, six stations each. Agent runtime &amp; harness (Go · Python · Kubernetes): Go service agent, job agents, CrewAI · Agno, OpenAI · Claude SDK, LangGraph, Flowise workers. Notebook &amp; workspace agents (autonomous Jupyter): create notebooks, complete cells, clean up · delete, workspace mgmt, Teradata workspace, harness tools. Scheduling &amp; events (event-driven agents): cron schedules, event triggers, job queues, retries · backoff, checkpoint resume, run history. SDLC &amp; full-stack (agents for the dev loop): PR review agent, feature workflows, e2e pipelines, feature testing, React · TypeScript, Go · Python APIs. Agent memory (temporal knowledge graphs): Mem0, LangGraph ckpt, Strands memory, Graphiti, Postgres sessions, graph recall. Evals &amp; observability (traces · metrics · gates): Opik, OpenTelemetry, job-agent evals, solve rate, token cost, regression gates. Model routing &amp; AutoLLM (right model per task): eval-based routing, AutoLLM selection, cost · latency SLOs, fallback chains, Claude · OpenAI, open LLMs. Governance &amp; tools (MCP · approvals · RBAC): MCP servers, HITL approvals, skills registry, RBAC, tenant isolation, injection guards. Model serving (Kubernetes-native inference): KServe engine, NVIDIA NIM, REST endpoints, quantized LLMs, Helm charts, multi-cluster. Deploy anywhere (any cluster · on-prem): Docker, CI/CD, EKS, AKS, GKE, on-prem. RAG &amp; retrieval (hybrid search · grounding): BM25, Sentence-BERT, FAISS, pgvector, knowledge graphs, NL2SQL. LLM fine-tuning (PEFT · compression): LLaMA-2, QLoRA 4-bit, LoRA · PEFT, Indic-BERT, GPT-2 prompt tuning, ONNX. Predictive ML (60M+ healthcare claims): XGBoost, LightGBM, Prophet · SARIMA, anomaly detection, explainable ML, risk scoring.</desc>
+  <style>
+    :root{--bg:#FFFFFF;--card:#F1F5F9;--fg:#0F172A;--muted:#475569;--border:#CBD5E1;--accent:#15803D;--accent2:#0369A1;--accent3:#7C3AED;--accent4:#B45309;--accent5:#DB2777;--accent6:#0F766E;--accent7:#C2410C}
+    .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+    .name{font-size:14.5px;font-weight:700;fill:var(--fg)}
+    .sub{font-size:11px;fill:var(--muted)}
+    .st{font-size:10.5px;fill:var(--muted)}
+    .line{fill:none;stroke-width:7;stroke-linecap:round}
+    .train{opacity:0;animation:ride 5.5s linear infinite}
+    .hub{transform-box:fill-box;transform-origin:center;animation:hub 2.6s ease-in-out infinite}
+    @keyframes ride{0%{transform:translateX(0);opacity:0}6%,92%{opacity:1}100%{transform:translateX(490px);opacity:0}}
+    @keyframes hub{0%,100%{transform:scale(1)}50%{transform:scale(1.25)}}
+    @media (prefers-reduced-motion:reduce){.train,.hub{animation:none}}
+  </style>
+  <rect x=".5" y=".5" width="899" height="747" rx="14" fill="var(--bg)" stroke="var(--border)"/>
+  <rect x="266" y="20" width="618" height="718" rx="10" fill="var(--card)" opacity=".75"/>
+
+  <g>
+    <text x="30" y="63" class="sans name">Agent runtime &amp; harness</text>
+    <text x="30" y="78" class="mono sub">Go · Python · Kubernetes</text>
+    <path class="line" d="M330 64H820" stroke="var(--accent3)"/>
+    <circle cx="330" cy="64" r="6" fill="var(--fg)" stroke="var(--accent3)" stroke-width="3"/>
+    <text x="330" y="85" text-anchor="middle" class="mono st">Go service agent</text>
+    <circle cx="428" cy="64" r="6" fill="var(--fg)" stroke="var(--accent3)" stroke-width="3"/>
+    <text x="428" y="52" text-anchor="middle" class="mono st">job agents</text>
+    <circle cx="526" cy="64" r="6" fill="var(--fg)" stroke="var(--accent3)" stroke-width="3"/>
+    <text x="526" y="85" text-anchor="middle" class="mono st">CrewAI · Agno</text>
+    <circle cx="624" cy="64" r="6" fill="var(--fg)" stroke="var(--accent3)" stroke-width="3"/>
+    <text x="624" y="52" text-anchor="middle" class="mono st">OpenAI · Claude SDK</text>
+    <circle cx="722" cy="64" r="6" fill="var(--fg)" stroke="var(--accent3)" stroke-width="3"/>
+    <text x="722" y="85" text-anchor="middle" class="mono st">LangGraph</text>
+    <circle class="hub" cx="820" cy="64" r="8" fill="var(--fg)" stroke="var(--accent3)" stroke-width="4"/>
+    <text x="820" y="52" text-anchor="middle" class="mono st">Flowise workers</text>
+    <rect class="train" style="animation-delay:0.00s" x="321" y="60" width="18" height="8" rx="4" fill="var(--bg)" stroke="var(--fg)" stroke-width="2"/>
+  </g>
+  <g>
+    <text x="30" y="115" class="sans name">Notebook &amp; workspace agents</text>
+    <text x="30" y="130" class="mono sub">autonomous Jupyter</text>
+    <path class="line" d="M330 116H820" stroke="var(--accent6)"/>
+    <circle cx="330" cy="116" r="6" fill="var(--fg)" stroke="var(--accent6)" stroke-width="3"/>
+    <text x="330" y="137" text-anchor="middle" class="mono st">create notebooks</text>
+    <circle cx="428" cy="116" r="6" fill="var(--fg)" stroke="var(--accent6)" stroke-width="3"/>
+    <text x="428" y="104" text-anchor="middle" class="mono st">complete cells</text>
+    <circle cx="526" cy="116" r="6" fill="var(--fg)" stroke="var(--accent6)" stroke-width="3"/>
+    <text x="526" y="137" text-anchor="middle" class="mono st">clean up · delete</text>
+    <circle cx="624" cy="116" r="6" fill="var(--fg)" stroke="var(--accent6)" stroke-width="3"/>
+    <text x="624" y="104" text-anchor="middle" class="mono st">workspace mgmt</text>
+    <circle cx="722" cy="116" r="6" fill="var(--fg)" stroke="var(--accent6)" stroke-width="3"/>
+    <text x="722" y="137" text-anchor="middle" class="mono st">Teradata workspace</text>
+    <circle class="hub" cx="820" cy="116" r="8" fill="var(--fg)" stroke="var(--accent6)" stroke-width="4"/>
+    <text x="820" y="104" text-anchor="middle" class="mono st">harness tools</text>
+    <rect class="train" style="animation-delay:0.55s" x="321" y="112" width="18" height="8" rx="4" fill="var(--bg)" stroke="var(--fg)" stroke-width="2"/>
+  </g>
+  <g>
+    <text x="30" y="167" class="sans name">Scheduling &amp; events</text>
+    <text x="30" y="182" class="mono sub">event-driven agents</text>
+    <path class="line" d="M330 168H820" stroke="var(--accent4)"/>
+    <circle cx="330" cy="168" r="6" fill="var(--fg)" stroke="var(--accent4)" stroke-width="3"/>
+    <text x="330" y="189" text-anchor="middle" class="mono st">cron schedules</text>
+    <circle cx="428" cy="168" r="6" fill="var(--fg)" stroke="var(--accent4)" stroke-width="3"/>
+    <text x="428" y="156" text-anchor="middle" class="mono st">event triggers</text>
+    <circle cx="526" cy="168" r="6" fill="var(--fg)" stroke="var(--accent4)" stroke-width="3"/>
+    <text x="526" y="189" text-anchor="middle" class="mono st">job queues</text>
+    <circle cx="624" cy="168" r="6" fill="var(--fg)" stroke="var(--accent4)" stroke-width="3"/>
+    <text x="624" y="156" text-anchor="middle" class="mono st">retries · backoff</text>
+    <circle cx="722" cy="168" r="6" fill="var(--fg)" stroke="var(--accent4)" stroke-width="3"/>
+    <text x="722" y="189" text-anchor="middle" class="mono st">checkpoint resume</text>
+    <circle class="hub" cx="820" cy="168" r="8" fill="var(--fg)" stroke="var(--accent4)" stroke-width="4"/>
+    <text x="820" y="156" text-anchor="middle" class="mono st">run history</text>
+    <rect class="train" style="animation-delay:1.10s" x="321" y="164" width="18" height="8" rx="4" fill="var(--bg)" stroke="var(--fg)" stroke-width="2"/>
+  </g>
+  <g>
+    <text x="30" y="219" class="sans name">SDLC &amp; full-stack</text>
+    <text x="30" y="234" class="mono sub">agents for the dev loop</text>
+    <path class="line" d="M330 220H820" stroke="var(--accent3)"/>
+    <circle cx="330" cy="220" r="6" fill="var(--fg)" stroke="var(--accent3)" stroke-width="3"/>
+    <text x="330" y="241" text-anchor="middle" class="mono st">PR review agent</text>
+    <circle cx="428" cy="220" r="6" fill="var(--fg)" stroke="var(--accent3)" stroke-width="3"/>
+    <text x="428" y="208" text-anchor="middle" class="mono st">feature workflows</text>
+    <circle cx="526" cy="220" r="6" fill="var(--fg)" stroke="var(--accent3)" stroke-width="3"/>
+    <text x="526" y="241" text-anchor="middle" class="mono st">e2e pipelines</text>
+    <circle cx="624" cy="220" r="6" fill="var(--fg)" stroke="var(--accent3)" stroke-width="3"/>
+    <text x="624" y="208" text-anchor="middle" class="mono st">feature testing</text>
+    <circle cx="722" cy="220" r="6" fill="var(--fg)" stroke="var(--accent3)" stroke-width="3"/>
+    <text x="722" y="241" text-anchor="middle" class="mono st">React · TypeScript</text>
+    <circle class="hub" cx="820" cy="220" r="8" fill="var(--fg)" stroke="var(--accent3)" stroke-width="4"/>
+    <text x="820" y="208" text-anchor="middle" class="mono st">Go · Python APIs</text>
+    <rect class="train" style="animation-delay:1.65s" x="321" y="216" width="18" height="8" rx="4" fill="var(--bg)" stroke="var(--fg)" stroke-width="2"/>
+  </g>
+  <g>
+    <text x="30" y="271" class="sans name">Agent memory</text>
+    <text x="30" y="286" class="mono sub">temporal knowledge graphs</text>
+    <path class="line" d="M330 272H820" stroke="var(--accent)"/>
+    <circle cx="330" cy="272" r="6" fill="var(--fg)" stroke="var(--accent)" stroke-width="3"/>
+    <text x="330" y="293" text-anchor="middle" class="mono st">Mem0</text>
+    <circle cx="428" cy="272" r="6" fill="var(--fg)" stroke="var(--accent)" stroke-width="3"/>
+    <text x="428" y="260" text-anchor="middle" class="mono st">LangGraph ckpt</text>
+    <circle cx="526" cy="272" r="6" fill="var(--fg)" stroke="var(--accent)" stroke-width="3"/>
+    <text x="526" y="293" text-anchor="middle" class="mono st">Strands memory</text>
+    <circle cx="624" cy="272" r="6" fill="var(--fg)" stroke="var(--accent)" stroke-width="3"/>
+    <text x="624" y="260" text-anchor="middle" class="mono st">Graphiti</text>
+    <circle cx="722" cy="272" r="6" fill="var(--fg)" stroke="var(--accent)" stroke-width="3"/>
+    <text x="722" y="293" text-anchor="middle" class="mono st">Postgres sessions</text>
+    <circle class="hub" cx="820" cy="272" r="8" fill="var(--fg)" stroke="var(--accent)" stroke-width="4"/>
+    <text x="820" y="260" text-anchor="middle" class="mono st">graph recall</text>
+    <rect class="train" style="animation-delay:2.20s" x="321" y="268" width="18" height="8" rx="4" fill="var(--bg)" stroke="var(--fg)" stroke-width="2"/>
+  </g>
+  <g>
+    <text x="30" y="323" class="sans name">Evals &amp; observability</text>
+    <text x="30" y="338" class="mono sub">traces · metrics · gates</text>
+    <path class="line" d="M330 324H820" stroke="var(--accent2)"/>
+    <circle cx="330" cy="324" r="6" fill="var(--fg)" stroke="var(--accent2)" stroke-width="3"/>
+    <text x="330" y="345" text-anchor="middle" class="mono st">Opik</text>
+    <circle cx="428" cy="324" r="6" fill="var(--fg)" stroke="var(--accent2)" stroke-width="3"/>
+    <text x="428" y="312" text-anchor="middle" class="mono st">OpenTelemetry</text>
+    <circle cx="526" cy="324" r="6" fill="var(--fg)" stroke="var(--accent2)" stroke-width="3"/>
+    <text x="526" y="345" text-anchor="middle" class="mono st">job-agent evals</text>
+    <circle cx="624" cy="324" r="6" fill="var(--fg)" stroke="var(--accent2)" stroke-width="3"/>
+    <text x="624" y="312" text-anchor="middle" class="mono st">solve rate</text>
+    <circle cx="722" cy="324" r="6" fill="var(--fg)" stroke="var(--accent2)" stroke-width="3"/>
+    <text x="722" y="345" text-anchor="middle" class="mono st">token cost</text>
+    <circle class="hub" cx="820" cy="324" r="8" fill="var(--fg)" stroke="var(--accent2)" stroke-width="4"/>
+    <text x="820" y="312" text-anchor="middle" class="mono st">regression gates</text>
+    <rect class="train" style="animation-delay:2.75s" x="321" y="320" width="18" height="8" rx="4" fill="var(--bg)" stroke="var(--fg)" stroke-width="2"/>
+  </g>
+  <g>
+    <text x="30" y="375" class="sans name">Model routing &amp; AutoLLM</text>
+    <text x="30" y="390" class="mono sub">right model per task</text>
+    <path class="line" d="M330 376H820" stroke="var(--accent5)"/>
+    <circle cx="330" cy="376" r="6" fill="var(--fg)" stroke="var(--accent5)" stroke-width="3"/>
+    <text x="330" y="397" text-anchor="middle" class="mono st">eval-based routing</text>
+    <circle cx="428" cy="376" r="6" fill="var(--fg)" stroke="var(--accent5)" stroke-width="3"/>
+    <text x="428" y="364" text-anchor="middle" class="mono st">AutoLLM selection</text>
+    <circle cx="526" cy="376" r="6" fill="var(--fg)" stroke="var(--accent5)" stroke-width="3"/>
+    <text x="526" y="397" text-anchor="middle" class="mono st">cost · latency SLOs</text>
+    <circle cx="624" cy="376" r="6" fill="var(--fg)" stroke="var(--accent5)" stroke-width="3"/>
+    <text x="624" y="364" text-anchor="middle" class="mono st">fallback chains</text>
+    <circle cx="722" cy="376" r="6" fill="var(--fg)" stroke="var(--accent5)" stroke-width="3"/>
+    <text x="722" y="397" text-anchor="middle" class="mono st">Claude · OpenAI</text>
+    <circle class="hub" cx="820" cy="376" r="8" fill="var(--fg)" stroke="var(--accent5)" stroke-width="4"/>
+    <text x="820" y="364" text-anchor="middle" class="mono st">open LLMs</text>
+    <rect class="train" style="animation-delay:3.30s" x="321" y="372" width="18" height="8" rx="4" fill="var(--bg)" stroke="var(--fg)" stroke-width="2"/>
+  </g>
+  <g>
+    <text x="30" y="427" class="sans name">Governance &amp; tools</text>
+    <text x="30" y="442" class="mono sub">MCP · approvals · RBAC</text>
+    <path class="line" d="M330 428H820" stroke="var(--accent7)"/>
+    <circle cx="330" cy="428" r="6" fill="var(--fg)" stroke="var(--accent7)" stroke-width="3"/>
+    <text x="330" y="449" text-anchor="middle" class="mono st">MCP servers</text>
+    <circle cx="428" cy="428" r="6" fill="var(--fg)" stroke="var(--accent7)" stroke-width="3"/>
+    <text x="428" y="416" text-anchor="middle" class="mono st">HITL approvals</text>
+    <circle cx="526" cy="428" r="6" fill="var(--fg)" stroke="var(--accent7)" stroke-width="3"/>
+    <text x="526" y="449" text-anchor="middle" class="mono st">skills registry</text>
+    <circle cx="624" cy="428" r="6" fill="var(--fg)" stroke="var(--accent7)" stroke-width="3"/>
+    <text x="624" y="416" text-anchor="middle" class="mono st">RBAC</text>
+    <circle cx="722" cy="428" r="6" fill="var(--fg)" stroke="var(--accent7)" stroke-width="3"/>
+    <text x="722" y="449" text-anchor="middle" class="mono st">tenant isolation</text>
+    <circle class="hub" cx="820" cy="428" r="8" fill="var(--fg)" stroke="var(--accent7)" stroke-width="4"/>
+    <text x="820" y="416" text-anchor="middle" class="mono st">injection guards</text>
+    <rect class="train" style="animation-delay:3.85s" x="321" y="424" width="18" height="8" rx="4" fill="var(--bg)" stroke="var(--fg)" stroke-width="2"/>
+  </g>
+  <g>
+    <text x="30" y="479" class="sans name">Model serving</text>
+    <text x="30" y="494" class="mono sub">Kubernetes-native inference</text>
+    <path class="line" d="M330 480H820" stroke="var(--accent4)"/>
+    <circle cx="330" cy="480" r="6" fill="var(--fg)" stroke="var(--accent4)" stroke-width="3"/>
+    <text x="330" y="501" text-anchor="middle" class="mono st">KServe engine</text>
+    <circle cx="428" cy="480" r="6" fill="var(--fg)" stroke="var(--accent4)" stroke-width="3"/>
+    <text x="428" y="468" text-anchor="middle" class="mono st">NVIDIA NIM</text>
+    <circle cx="526" cy="480" r="6" fill="var(--fg)" stroke="var(--accent4)" stroke-width="3"/>
+    <text x="526" y="501" text-anchor="middle" class="mono st">REST endpoints</text>
+    <circle cx="624" cy="480" r="6" fill="var(--fg)" stroke="var(--accent4)" stroke-width="3"/>
+    <text x="624" y="468" text-anchor="middle" class="mono st">quantized LLMs</text>
+    <circle cx="722" cy="480" r="6" fill="var(--fg)" stroke="var(--accent4)" stroke-width="3"/>
+    <text x="722" y="501" text-anchor="middle" class="mono st">Helm charts</text>
+    <circle class="hub" cx="820" cy="480" r="8" fill="var(--fg)" stroke="var(--accent4)" stroke-width="4"/>
+    <text x="820" y="468" text-anchor="middle" class="mono st">multi-cluster</text>
+    <rect class="train" style="animation-delay:4.40s" x="321" y="476" width="18" height="8" rx="4" fill="var(--bg)" stroke="var(--fg)" stroke-width="2"/>
+  </g>
+  <g>
+    <text x="30" y="531" class="sans name">Deploy anywhere</text>
+    <text x="30" y="546" class="mono sub">any cluster · on-prem</text>
+    <path class="line" d="M330 532H820" stroke="var(--accent6)"/>
+    <circle cx="330" cy="532" r="6" fill="var(--fg)" stroke="var(--accent6)" stroke-width="3"/>
+    <text x="330" y="553" text-anchor="middle" class="mono st">Docker</text>
+    <circle cx="428" cy="532" r="6" fill="var(--fg)" stroke="var(--accent6)" stroke-width="3"/>
+    <text x="428" y="520" text-anchor="middle" class="mono st">CI/CD</text>
+    <circle cx="526" cy="532" r="6" fill="var(--fg)" stroke="var(--accent6)" stroke-width="3"/>
+    <text x="526" y="553" text-anchor="middle" class="mono st">EKS</text>
+    <circle cx="624" cy="532" r="6" fill="var(--fg)" stroke="var(--accent6)" stroke-width="3"/>
+    <text x="624" y="520" text-anchor="middle" class="mono st">AKS</text>
+    <circle cx="722" cy="532" r="6" fill="var(--fg)" stroke="var(--accent6)" stroke-width="3"/>
+    <text x="722" y="553" text-anchor="middle" class="mono st">GKE</text>
+    <circle class="hub" cx="820" cy="532" r="8" fill="var(--fg)" stroke="var(--accent6)" stroke-width="4"/>
+    <text x="820" y="520" text-anchor="middle" class="mono st">on-prem</text>
+    <rect class="train" style="animation-delay:4.95s" x="321" y="528" width="18" height="8" rx="4" fill="var(--bg)" stroke="var(--fg)" stroke-width="2"/>
+  </g>
+  <g>
+    <text x="30" y="583" class="sans name">RAG &amp; retrieval</text>
+    <text x="30" y="598" class="mono sub">hybrid search · grounding</text>
+    <path class="line" d="M330 584H820" stroke="var(--accent2)"/>
+    <circle cx="330" cy="584" r="6" fill="var(--fg)" stroke="var(--accent2)" stroke-width="3"/>
+    <text x="330" y="605" text-anchor="middle" class="mono st">BM25</text>
+    <circle cx="428" cy="584" r="6" fill="var(--fg)" stroke="var(--accent2)" stroke-width="3"/>
+    <text x="428" y="572" text-anchor="middle" class="mono st">Sentence-BERT</text>
+    <circle cx="526" cy="584" r="6" fill="var(--fg)" stroke="var(--accent2)" stroke-width="3"/>
+    <text x="526" y="605" text-anchor="middle" class="mono st">FAISS</text>
+    <circle cx="624" cy="584" r="6" fill="var(--fg)" stroke="var(--accent2)" stroke-width="3"/>
+    <text x="624" y="572" text-anchor="middle" class="mono st">pgvector</text>
+    <circle cx="722" cy="584" r="6" fill="var(--fg)" stroke="var(--accent2)" stroke-width="3"/>
+    <text x="722" y="605" text-anchor="middle" class="mono st">knowledge graphs</text>
+    <circle class="hub" cx="820" cy="584" r="8" fill="var(--fg)" stroke="var(--accent2)" stroke-width="4"/>
+    <text x="820" y="572" text-anchor="middle" class="mono st">NL2SQL</text>
+    <rect class="train" style="animation-delay:5.50s" x="321" y="580" width="18" height="8" rx="4" fill="var(--bg)" stroke="var(--fg)" stroke-width="2"/>
+  </g>
+  <g>
+    <text x="30" y="635" class="sans name">LLM fine-tuning</text>
+    <text x="30" y="650" class="mono sub">PEFT · compression</text>
+    <path class="line" d="M330 636H820" stroke="var(--accent5)"/>
+    <circle cx="330" cy="636" r="6" fill="var(--fg)" stroke="var(--accent5)" stroke-width="3"/>
+    <text x="330" y="657" text-anchor="middle" class="mono st">LLaMA-2</text>
+    <circle cx="428" cy="636" r="6" fill="var(--fg)" stroke="var(--accent5)" stroke-width="3"/>
+    <text x="428" y="624" text-anchor="middle" class="mono st">QLoRA 4-bit</text>
+    <circle cx="526" cy="636" r="6" fill="var(--fg)" stroke="var(--accent5)" stroke-width="3"/>
+    <text x="526" y="657" text-anchor="middle" class="mono st">LoRA · PEFT</text>
+    <circle cx="624" cy="636" r="6" fill="var(--fg)" stroke="var(--accent5)" stroke-width="3"/>
+    <text x="624" y="624" text-anchor="middle" class="mono st">Indic-BERT</text>
+    <circle cx="722" cy="636" r="6" fill="var(--fg)" stroke="var(--accent5)" stroke-width="3"/>
+    <text x="722" y="657" text-anchor="middle" class="mono st">GPT-2 prompt tuning</text>
+    <circle class="hub" cx="820" cy="636" r="8" fill="var(--fg)" stroke="var(--accent5)" stroke-width="4"/>
+    <text x="820" y="624" text-anchor="middle" class="mono st">ONNX</text>
+    <rect class="train" style="animation-delay:6.05s" x="321" y="632" width="18" height="8" rx="4" fill="var(--bg)" stroke="var(--fg)" stroke-width="2"/>
+  </g>
+  <g>
+    <text x="30" y="687" class="sans name">Predictive ML</text>
+    <text x="30" y="702" class="mono sub">60M+ healthcare claims</text>
+    <path class="line" d="M330 688H820" stroke="var(--accent)"/>
+    <circle cx="330" cy="688" r="6" fill="var(--fg)" stroke="var(--accent)" stroke-width="3"/>
+    <text x="330" y="709" text-anchor="middle" class="mono st">XGBoost</text>
+    <circle cx="428" cy="688" r="6" fill="var(--fg)" stroke="var(--accent)" stroke-width="3"/>
+    <text x="428" y="676" text-anchor="middle" class="mono st">LightGBM</text>
+    <circle cx="526" cy="688" r="6" fill="var(--fg)" stroke="var(--accent)" stroke-width="3"/>
+    <text x="526" y="709" text-anchor="middle" class="mono st">Prophet · SARIMA</text>
+    <circle cx="624" cy="688" r="6" fill="var(--fg)" stroke="var(--accent)" stroke-width="3"/>
+    <text x="624" y="676" text-anchor="middle" class="mono st">anomaly detection</text>
+    <circle cx="722" cy="688" r="6" fill="var(--fg)" stroke="var(--accent)" stroke-width="3"/>
+    <text x="722" y="709" text-anchor="middle" class="mono st">explainable ML</text>
+    <circle class="hub" cx="820" cy="688" r="8" fill="var(--fg)" stroke="var(--accent)" stroke-width="4"/>
+    <text x="820" y="676" text-anchor="middle" class="mono st">risk scoring</text>
+    <rect class="train" style="animation-delay:6.60s" x="321" y="684" width="18" height="8" rx="4" fill="var(--bg)" stroke="var(--fg)" stroke-width="2"/>
+  </g>
+</svg>

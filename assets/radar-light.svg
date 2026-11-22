@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="t d">
+  <title id="t">Tech radar</title>
+  <desc id="d">Tech radar of the agentic AI stack in four quadrants. Agents &amp; harness: LangGraph, CrewAI, Strands, Agno, Claude Agent SDK, OpenAI Agents SDK, Claude Code, Event-driven agents, DSPy, Computer-use agents. Protocols &amp; governance: MCP, A2A protocol, Agent skills, Human-in-the-loop, MCP registries, RBAC · tenancy, Prompt-injection defense, Tool sandboxing, Policy-as-code, Audit trails. Memory, retrieval &amp; evals: Mem0, Graphiti, pgvector, GraphRAG, Context engineering, Opik · OpenTelemetry, LLM-as-judge, Trajectory evals, τ-bench, Terminal-Bench. Inference &amp; routing: Model routing, AutoLLM selection, KServe, NVIDIA NIM, vLLM, SGLang, QLoRA · LoRA, Speculative decoding, GPU scheduling, Small on-device models.</desc>
+  <style>
+    :root{--bg:#FFFFFF;--card:#F1F5F9;--fg:#0F172A;--muted:#475569;--border:#CBD5E1;--accent:#15803D;--accent2:#0369A1;--accent3:#7C3AED;--accent4:#B45309;--accent5:#DB2777}
+    .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+    .q{font-size:13.5px;font-weight:700}
+    .it{font-size:12.5px;fill:var(--fg)}
+    .num{font-size:9px;font-weight:700;fill:var(--bg)}
+    .sweep{transform-box:view-box;transform-origin:250px 290px;animation:spin 8s linear infinite}
+    .halo{transform-box:fill-box;transform-origin:center;opacity:0;animation:hit 8s linear infinite}
+    .core{transform-box:fill-box;transform-origin:center;animation:core 2.4s ease-in-out infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes hit{0%{opacity:.9;transform:scale(1)}12%{opacity:0;transform:scale(2.6)}100%{opacity:0}}
+    @keyframes core{0%,100%{transform:scale(1)}50%{transform:scale(1.35)}}
+    @media (prefers-reduced-motion:reduce){.sweep,.halo,.core{animation:none}.sweep{opacity:0}}
+  </style>
+  <defs>
+    <linearGradient id="beam" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="var(--accent)" stop-opacity=".42"/>
+      <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="899" height="619" rx="14" fill="var(--bg)" stroke="var(--border)"/>
+  <text x="30" y="34" class="mono" font-size="12" fill="var(--muted)" letter-spacing="1.5">TECH RADAR · THE AGENTIC AI STACK</text>
+
+  <path d="M250 290L50.0 290.0A200 200 0 0 1 250.0 90.0Z" fill="var(--accent3)" fill-opacity=".07"/>
+  <path d="M250 290L250.0 90.0A200 200 0 0 1 450.0 290.0Z" fill="var(--accent5)" fill-opacity=".07"/>
+  <path d="M250 290L450.0 290.0A200 200 0 0 1 250.0 490.0Z" fill="var(--accent2)" fill-opacity=".07"/>
+  <path d="M250 290L250.0 490.0A200 200 0 0 1 50.0 290.0Z" fill="var(--accent4)" fill-opacity=".07"/>
+  <circle cx="250" cy="290" r="200" fill="none" stroke="var(--border)"/>
+  <circle cx="250" cy="290" r="140" fill="none" stroke="var(--border)"/>
+  <circle cx="250" cy="290" r="80" fill="none" stroke="var(--border)"/>
+  <path d="M50 290H450M250 90V490" stroke="var(--border)"/>
+  <g class="sweep"><path d="M250 290L450 290A200 200 0 0 0 403.2 161.4Z" fill="url(#beam)"/><path d="M250 290H450" stroke="var(--accent)" stroke-width="1.5" opacity=".8"/></g>
+  <circle class="core" cx="250" cy="290" r="5" fill="var(--accent)"/>
+  <circle class="halo" style="animation-delay:4.20s" cx="194.7" cy="281.2" r="9" fill="none" stroke="var(--accent3)" stroke-width="2"/>
+  <circle cx="194.7" cy="281.2" r="9" fill="var(--accent3)"/><text x="194.7" y="284.2" text-anchor="middle" class="mono num">1</text>
+  <circle class="halo" style="animation-delay:4.38s" cx="135.2" cy="254.9" r="9" fill="none" stroke="var(--accent3)" stroke-width="2"/>
+  <circle cx="135.2" cy="254.9" r="9" fill="var(--accent3)"/><text x="135.2" y="257.9" text-anchor="middle" class="mono num">2</text>
+  <circle class="halo" style="animation-delay:4.56s" cx="105.0" cy="222.4" r="9" fill="none" stroke="var(--accent3)" stroke-width="2"/>
+  <circle cx="105.0" cy="222.4" r="9" fill="var(--accent3)"/><text x="105.0" y="225.4" text-anchor="middle" class="mono num">3</text>
+  <circle class="halo" style="animation-delay:4.73s" cx="193.0" cy="253.0" r="9" fill="none" stroke="var(--accent3)" stroke-width="2"/>
+  <circle cx="193.0" cy="253.0" r="9" fill="var(--accent3)"/><text x="193.0" y="256.0" text-anchor="middle" class="mono num">4</text>
+  <circle class="halo" style="animation-delay:4.91s" cx="168.5" cy="219.1" r="9" fill="none" stroke="var(--accent3)" stroke-width="2"/>
+  <circle cx="168.5" cy="219.1" r="9" fill="var(--accent3)"/><text x="168.5" y="222.1" text-anchor="middle" class="mono num">5</text>
+  <circle class="halo" style="animation-delay:5.09s" cx="137.2" cy="160.2" r="9" fill="none" stroke="var(--accent3)" stroke-width="2"/>
+  <circle cx="137.2" cy="160.2" r="9" fill="var(--accent3)"/><text x="137.2" y="163.2" text-anchor="middle" class="mono num">6</text>
+  <circle class="halo" style="animation-delay:5.27s" cx="219.5" cy="243.0" r="9" fill="none" stroke="var(--accent3)" stroke-width="2"/>
+  <circle cx="219.5" cy="243.0" r="9" fill="var(--accent3)"/><text x="219.5" y="246.0" text-anchor="middle" class="mono num">7</text>
+  <circle class="halo" style="animation-delay:5.44s" cx="199.3" cy="181.2" r="9" fill="none" stroke="var(--accent3)" stroke-width="2"/>
+  <circle cx="199.3" cy="181.2" r="9" fill="var(--accent3)"/><text x="199.3" y="184.2" text-anchor="middle" class="mono num">8</text>
+  <circle class="halo" style="animation-delay:5.62s" cx="203.2" cy="137.0" r="9" fill="none" stroke="var(--accent3)" stroke-width="2"/>
+  <circle cx="203.2" cy="137.0" r="9" fill="var(--accent3)"/><text x="203.2" y="140.0" text-anchor="middle" class="mono num">9</text>
+  <circle class="halo" style="animation-delay:5.80s" cx="239.4" cy="222.8" r="9" fill="none" stroke="var(--accent3)" stroke-width="2"/>
+  <circle cx="239.4" cy="222.8" r="9" fill="var(--accent3)"/><text x="239.4" y="225.8" text-anchor="middle" class="mono num">10</text>
+  <text x="50" y="78" text-anchor="start" class="sans q" fill="var(--accent3)">Agents &amp; harness</text>
+  <circle class="halo" style="animation-delay:6.20s" cx="258.8" cy="234.7" r="9" fill="none" stroke="var(--accent5)" stroke-width="2"/>
+  <circle cx="258.8" cy="234.7" r="9" fill="var(--accent5)"/><text x="258.8" y="237.7" text-anchor="middle" class="mono num">11</text>
+  <circle class="halo" style="animation-delay:6.38s" cx="285.1" cy="175.2" r="9" fill="none" stroke="var(--accent5)" stroke-width="2"/>
+  <circle cx="285.1" cy="175.2" r="9" fill="var(--accent5)"/><text x="285.1" y="178.2" text-anchor="middle" class="mono num">12</text>
+  <circle class="halo" style="animation-delay:6.56s" cx="317.6" cy="145.0" r="9" fill="none" stroke="var(--accent5)" stroke-width="2"/>
+  <circle cx="317.6" cy="145.0" r="9" fill="var(--accent5)"/><text x="317.6" y="148.0" text-anchor="middle" class="mono num">13</text>
+  <circle class="halo" style="animation-delay:6.73s" cx="287.0" cy="233.0" r="9" fill="none" stroke="var(--accent5)" stroke-width="2"/>
+  <circle cx="287.0" cy="233.0" r="9" fill="var(--accent5)"/><text x="287.0" y="236.0" text-anchor="middle" class="mono num">14</text>
+  <circle class="halo" style="animation-delay:6.91s" cx="320.9" cy="208.5" r="9" fill="none" stroke="var(--accent5)" stroke-width="2"/>
+  <circle cx="320.9" cy="208.5" r="9" fill="var(--accent5)"/><text x="320.9" y="211.5" text-anchor="middle" class="mono num">15</text>
+  <circle class="halo" style="animation-delay:7.09s" cx="379.8" cy="177.2" r="9" fill="none" stroke="var(--accent5)" stroke-width="2"/>
+  <circle cx="379.8" cy="177.2" r="9" fill="var(--accent5)"/><text x="379.8" y="180.2" text-anchor="middle" class="mono num">16</text>
+  <circle class="halo" style="animation-delay:7.27s" cx="297.0" cy="259.5" r="9" fill="none" stroke="var(--accent5)" stroke-width="2"/>
+  <circle cx="297.0" cy="259.5" r="9" fill="var(--accent5)"/><text x="297.0" y="262.5" text-anchor="middle" class="mono num">17</text>
+  <circle class="halo" style="animation-delay:7.44s" cx="358.8" cy="239.3" r="9" fill="none" stroke="var(--accent5)" stroke-width="2"/>
+  <circle cx="358.8" cy="239.3" r="9" fill="var(--accent5)"/><text x="358.8" y="242.3" text-anchor="middle" class="mono num">18</text>
+  <circle class="halo" style="animation-delay:7.62s" cx="403.0" cy="243.2" r="9" fill="none" stroke="var(--accent5)" stroke-width="2"/>
+  <circle cx="403.0" cy="243.2" r="9" fill="var(--accent5)"/><text x="403.0" y="246.2" text-anchor="middle" class="mono num">19</text>
+  <circle class="halo" style="animation-delay:7.80s" cx="317.2" cy="279.4" r="9" fill="none" stroke="var(--accent5)" stroke-width="2"/>
+  <circle cx="317.2" cy="279.4" r="9" fill="var(--accent5)"/><text x="317.2" y="282.4" text-anchor="middle" class="mono num">20</text>
+  <text x="450" y="78" text-anchor="end" class="sans q" fill="var(--accent5)">Protocols &amp; governance</text>
+  <circle class="halo" style="animation-delay:0.20s" cx="305.3" cy="298.8" r="9" fill="none" stroke="var(--accent2)" stroke-width="2"/>
+  <circle cx="305.3" cy="298.8" r="9" fill="var(--accent2)"/><text x="305.3" y="301.8" text-anchor="middle" class="mono num">21</text>
+  <circle class="halo" style="animation-delay:0.38s" cx="364.8" cy="325.1" r="9" fill="none" stroke="var(--accent2)" stroke-width="2"/>
+  <circle cx="364.8" cy="325.1" r="9" fill="var(--accent2)"/><text x="364.8" y="328.1" text-anchor="middle" class="mono num">22</text>
+  <circle class="halo" style="animation-delay:0.56s" cx="395.0" cy="357.6" r="9" fill="none" stroke="var(--accent2)" stroke-width="2"/>
+  <circle cx="395.0" cy="357.6" r="9" fill="var(--accent2)"/><text x="395.0" y="360.6" text-anchor="middle" class="mono num">23</text>
+  <circle class="halo" style="animation-delay:0.73s" cx="307.0" cy="327.0" r="9" fill="none" stroke="var(--accent2)" stroke-width="2"/>
+  <circle cx="307.0" cy="327.0" r="9" fill="var(--accent2)"/><text x="307.0" y="330.0" text-anchor="middle" class="mono num">24</text>
+  <circle class="halo" style="animation-delay:0.91s" cx="331.5" cy="360.9" r="9" fill="none" stroke="var(--accent2)" stroke-width="2"/>
+  <circle cx="331.5" cy="360.9" r="9" fill="var(--accent2)"/><text x="331.5" y="363.9" text-anchor="middle" class="mono num">25</text>
+  <circle class="halo" style="animation-delay:1.09s" cx="362.8" cy="419.8" r="9" fill="none" stroke="var(--accent2)" stroke-width="2"/>
+  <circle cx="362.8" cy="419.8" r="9" fill="var(--accent2)"/><text x="362.8" y="422.8" text-anchor="middle" class="mono num">26</text>
+  <circle class="halo" style="animation-delay:1.27s" cx="280.5" cy="337.0" r="9" fill="none" stroke="var(--accent2)" stroke-width="2"/>
+  <circle cx="280.5" cy="337.0" r="9" fill="var(--accent2)"/><text x="280.5" y="340.0" text-anchor="middle" class="mono num">27</text>
+  <circle class="halo" style="animation-delay:1.44s" cx="300.7" cy="398.8" r="9" fill="none" stroke="var(--accent2)" stroke-width="2"/>
+  <circle cx="300.7" cy="398.8" r="9" fill="var(--accent2)"/><text x="300.7" y="401.8" text-anchor="middle" class="mono num">28</text>
+  <circle class="halo" style="animation-delay:1.62s" cx="296.8" cy="443.0" r="9" fill="none" stroke="var(--accent2)" stroke-width="2"/>
+  <circle cx="296.8" cy="443.0" r="9" fill="var(--accent2)"/><text x="296.8" y="446.0" text-anchor="middle" class="mono num">29</text>
+  <circle class="halo" style="animation-delay:1.80s" cx="260.6" cy="357.2" r="9" fill="none" stroke="var(--accent2)" stroke-width="2"/>
+  <circle cx="260.6" cy="357.2" r="9" fill="var(--accent2)"/><text x="260.6" y="360.2" text-anchor="middle" class="mono num">30</text>
+  <text x="450" y="514" text-anchor="end" class="sans q" fill="var(--accent2)">Memory, retrieval &amp; evals</text>
+  <circle class="halo" style="animation-delay:2.20s" cx="241.2" cy="345.3" r="9" fill="none" stroke="var(--accent4)" stroke-width="2"/>
+  <circle cx="241.2" cy="345.3" r="9" fill="var(--accent4)"/><text x="241.2" y="348.3" text-anchor="middle" class="mono num">31</text>
+  <circle class="halo" style="animation-delay:2.38s" cx="214.9" cy="404.8" r="9" fill="none" stroke="var(--accent4)" stroke-width="2"/>
+  <circle cx="214.9" cy="404.8" r="9" fill="var(--accent4)"/><text x="214.9" y="407.8" text-anchor="middle" class="mono num">32</text>
+  <circle class="halo" style="animation-delay:2.56s" cx="182.4" cy="435.0" r="9" fill="none" stroke="var(--accent4)" stroke-width="2"/>
+  <circle cx="182.4" cy="435.0" r="9" fill="var(--accent4)"/><text x="182.4" y="438.0" text-anchor="middle" class="mono num">33</text>
+  <circle class="halo" style="animation-delay:2.73s" cx="213.0" cy="347.0" r="9" fill="none" stroke="var(--accent4)" stroke-width="2"/>
+  <circle cx="213.0" cy="347.0" r="9" fill="var(--accent4)"/><text x="213.0" y="350.0" text-anchor="middle" class="mono num">34</text>
+  <circle class="halo" style="animation-delay:2.91s" cx="179.1" cy="371.5" r="9" fill="none" stroke="var(--accent4)" stroke-width="2"/>
+  <circle cx="179.1" cy="371.5" r="9" fill="var(--accent4)"/><text x="179.1" y="374.5" text-anchor="middle" class="mono num">35</text>
+  <circle class="halo" style="animation-delay:3.09s" cx="120.2" cy="402.8" r="9" fill="none" stroke="var(--accent4)" stroke-width="2"/>
+  <circle cx="120.2" cy="402.8" r="9" fill="var(--accent4)"/><text x="120.2" y="405.8" text-anchor="middle" class="mono num">36</text>
+  <circle class="halo" style="animation-delay:3.27s" cx="203.0" cy="320.5" r="9" fill="none" stroke="var(--accent4)" stroke-width="2"/>
+  <circle cx="203.0" cy="320.5" r="9" fill="var(--accent4)"/><text x="203.0" y="323.5" text-anchor="middle" class="mono num">37</text>
+  <circle class="halo" style="animation-delay:3.44s" cx="141.2" cy="340.7" r="9" fill="none" stroke="var(--accent4)" stroke-width="2"/>
+  <circle cx="141.2" cy="340.7" r="9" fill="var(--accent4)"/><text x="141.2" y="343.7" text-anchor="middle" class="mono num">38</text>
+  <circle class="halo" style="animation-delay:3.62s" cx="97.0" cy="336.8" r="9" fill="none" stroke="var(--accent4)" stroke-width="2"/>
+  <circle cx="97.0" cy="336.8" r="9" fill="var(--accent4)"/><text x="97.0" y="339.8" text-anchor="middle" class="mono num">39</text>
+  <circle class="halo" style="animation-delay:3.80s" cx="182.8" cy="300.6" r="9" fill="none" stroke="var(--accent4)" stroke-width="2"/>
+  <circle cx="182.8" cy="300.6" r="9" fill="var(--accent4)"/><text x="182.8" y="303.6" text-anchor="middle" class="mono num">40</text>
+  <text x="50" y="514" text-anchor="start" class="sans q" fill="var(--accent4)">Inference &amp; routing</text>
+  <text x="500" y="80" class="sans q" fill="var(--accent3)">Agents &amp; harness</text>
+  <circle cx="507" cy="98" r="7.5" fill="var(--accent3)"/><text x="507" y="101" text-anchor="middle" class="mono num">1</text>
+  <text x="521" y="102" class="sans it">LangGraph</text>
+  <circle cx="507" cy="118" r="7.5" fill="var(--accent3)"/><text x="507" y="121" text-anchor="middle" class="mono num">2</text>
+  <text x="521" y="122" class="sans it">CrewAI</text>
+  <circle cx="507" cy="138" r="7.5" fill="var(--accent3)"/><text x="507" y="141" text-anchor="middle" class="mono num">3</text>
+  <text x="521" y="142" class="sans it">Strands</text>
+  <circle cx="507" cy="158" r="7.5" fill="var(--accent3)"/><text x="507" y="161" text-anchor="middle" class="mono num">4</text>
+  <text x="521" y="162" class="sans it">Agno</text>
+  <circle cx="507" cy="178" r="7.5" fill="var(--accent3)"/><text x="507" y="181" text-anchor="middle" class="mono num">5</text>
+  <text x="521" y="182" class="sans it">Claude Agent SDK</text>
+  <circle cx="507" cy="198" r="7.5" fill="var(--accent3)"/><text x="507" y="201" text-anchor="middle" class="mono num">6</text>
+  <text x="521" y="202" class="sans it">OpenAI Agents SDK</text>
+  <circle cx="507" cy="218" r="7.5" fill="var(--accent3)"/><text x="507" y="221" text-anchor="middle" class="mono num">7</text>
+  <text x="521" y="222" class="sans it">Claude Code</text>
+  <circle cx="507" cy="238" r="7.5" fill="var(--accent3)"/><text x="507" y="241" text-anchor="middle" class="mono num">8</text>
+  <text x="521" y="242" class="sans it">Event-driven agents</text>
+  <circle cx="507" cy="258" r="7.5" fill="var(--accent3)"/><text x="507" y="261" text-anchor="middle" class="mono num">9</text>
+  <text x="521" y="262" class="sans it">DSPy</text>
+  <circle cx="507" cy="278" r="7.5" fill="var(--accent3)"/><text x="507" y="281" text-anchor="middle" class="mono num">10</text>
+  <text x="521" y="282" class="sans it">Computer-use agents</text>
+  <text x="500" y="320" class="sans q" fill="var(--accent5)">Protocols &amp; governance</text>
+  <circle cx="507" cy="338" r="7.5" fill="var(--accent5)"/><text x="507" y="341" text-anchor="middle" class="mono num">11</text>
+  <text x="521" y="342" class="sans it">MCP</text>
+  <circle cx="507" cy="358" r="7.5" fill="var(--accent5)"/><text x="507" y="361" text-anchor="middle" class="mono num">12</text>
+  <text x="521" y="362" class="sans it">A2A protocol</text>
+  <circle cx="507" cy="378" r="7.5" fill="var(--accent5)"/><text x="507" y="381" text-anchor="middle" class="mono num">13</text>
+  <text x="521" y="382" class="sans it">Agent skills</text>
+  <circle cx="507" cy="398" r="7.5" fill="var(--accent5)"/><text x="507" y="401" text-anchor="middle" class="mono num">14</text>
+  <text x="521" y="402" class="sans it">Human-in-the-loop</text>
+  <circle cx="507" cy="418" r="7.5" fill="var(--accent5)"/><text x="507" y="421" text-anchor="middle" class="mono num">15</text>
+  <text x="521" y="422" class="sans it">MCP registries</text>
+  <circle cx="507" cy="438" r="7.5" fill="var(--accent5)"/><text x="507" y="441" text-anchor="middle" class="mono num">16</text>
+  <text x="521" y="442" class="sans it">RBAC · tenancy</text>
+  <circle cx="507" cy="458" r="7.5" fill="var(--accent5)"/><text x="507" y="461" text-anchor="middle" class="mono num">17</text>
+  <text x="521" y="462" class="sans it">Prompt-injection defense</text>
+  <circle cx="507" cy="478" r="7.5" fill="var(--accent5)"/><text x="507" y="481" text-anchor="middle" class="mono num">18</text>
+  <text x="521" y="482" class="sans it">Tool sandboxing</text>
+  <circle cx="507" cy="498" r="7.5" fill="var(--accent5)"/><text x="507" y="501" text-anchor="middle" class="mono num">19</text>
+  <text x="521" y="502" class="sans it">Policy-as-code</text>
+  <circle cx="507" cy="518" r="7.5" fill="var(--accent5)"/><text x="507" y="521" text-anchor="middle" class="mono num">20</text>
+  <text x="521" y="522" class="sans it">Audit trails</text>
+  <text x="700" y="80" class="sans q" fill="var(--accent2)">Memory, retrieval &amp; evals</text>
+  <circle cx="707" cy="98" r="7.5" fill="var(--accent2)"/><text x="707" y="101" text-anchor="middle" class="mono num">21</text>
+  <text x="721" y="102" class="sans it">Mem0</text>
+  <circle cx="707" cy="118" r="7.5" fill="var(--accent2)"/><text x="707" y="121" text-anchor="middle" class="mono num">22</text>
+  <text x="721" y="122" class="sans it">Graphiti</text>
+  <circle cx="707" cy="138" r="7.5" fill="var(--accent2)"/><text x="707" y="141" text-anchor="middle" class="mono num">23</text>
+  <text x="721" y="142" class="sans it">pgvector</text>
+  <circle cx="707" cy="158" r="7.5" fill="var(--accent2)"/><text x="707" y="161" text-anchor="middle" class="mono num">24</text>
+  <text x="721" y="162" class="sans it">GraphRAG</text>
+  <circle cx="707" cy="178" r="7.5" fill="var(--accent2)"/><text x="707" y="181" text-anchor="middle" class="mono num">25</text>
+  <text x="721" y="182" class="sans it">Context engineering</text>
+  <circle cx="707" cy="198" r="7.5" fill="var(--accent2)"/><text x="707" y="201" text-anchor="middle" class="mono num">26</text>
+  <text x="721" y="202" class="sans it">Opik · OpenTelemetry</text>
+  <circle cx="707" cy="218" r="7.5" fill="var(--accent2)"/><text x="707" y="221" text-anchor="middle" class="mono num">27</text>
+  <text x="721" y="222" class="sans it">LLM-as-judge</text>
+  <circle cx="707" cy="238" r="7.5" fill="var(--accent2)"/><text x="707" y="241" text-anchor="middle" class="mono num">28</text>
+  <text x="721" y="242" class="sans it">Trajectory evals</text>
+  <circle cx="707" cy="258" r="7.5" fill="var(--accent2)"/><text x="707" y="261" text-anchor="middle" class="mono num">29</text>
+  <text x="721" y="262" class="sans it">τ-bench</text>
+  <circle cx="707" cy="278" r="7.5" fill="var(--accent2)"/><text x="707" y="281" text-anchor="middle" class="mono num">30</text>
+  <text x="721" y="282" class="sans it">Terminal-Bench</text>
+  <text x="700" y="320" class="sans q" fill="var(--accent4)">Inference &amp; routing</text>
+  <circle cx="707" cy="338" r="7.5" fill="var(--accent4)"/><text x="707" y="341" text-anchor="middle" class="mono num">31</text>
+  <text x="721" y="342" class="sans it">Model routing</text>
+  <circle cx="707" cy="358" r="7.5" fill="var(--accent4)"/><text x="707" y="361" text-anchor="middle" class="mono num">32</text>
+  <text x="721" y="362" class="sans it">AutoLLM selection</text>
+  <circle cx="707" cy="378" r="7.5" fill="var(--accent4)"/><text x="707" y="381" text-anchor="middle" class="mono num">33</text>
+  <text x="721" y="382" class="sans it">KServe</text>
+  <circle cx="707" cy="398" r="7.5" fill="var(--accent4)"/><text x="707" y="401" text-anchor="middle" class="mono num">34</text>
+  <text x="721" y="402" class="sans it">NVIDIA NIM</text>
+  <circle cx="707" cy="418" r="7.5" fill="var(--accent4)"/><text x="707" y="421" text-anchor="middle" class="mono num">35</text>
+  <text x="721" y="422" class="sans it">vLLM</text>
+  <circle cx="707" cy="438" r="7.5" fill="var(--accent4)"/><text x="707" y="441" text-anchor="middle" class="mono num">36</text>
+  <text x="721" y="442" class="sans it">SGLang</text>
+  <circle cx="707" cy="458" r="7.5" fill="var(--accent4)"/><text x="707" y="461" text-anchor="middle" class="mono num">37</text>
+  <text x="721" y="462" class="sans it">QLoRA · LoRA</text>
+  <circle cx="707" cy="478" r="7.5" fill="var(--accent4)"/><text x="707" y="481" text-anchor="middle" class="mono num">38</text>
+  <text x="721" y="482" class="sans it">Speculative decoding</text>
+  <circle cx="707" cy="498" r="7.5" fill="var(--accent4)"/><text x="707" y="501" text-anchor="middle" class="mono num">39</text>
+  <text x="721" y="502" class="sans it">GPU scheduling</text>
+  <circle cx="707" cy="518" r="7.5" fill="var(--accent4)"/><text x="707" y="521" text-anchor="middle" class="mono num">40</text>
+  <text x="721" y="522" class="sans it">Small on-device models</text>
+</svg>

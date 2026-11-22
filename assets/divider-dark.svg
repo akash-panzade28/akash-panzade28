@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 24" role="presentation" aria-hidden="true">
+  <style>
+    :root{--bg:#0F172A;--fg:#F8FAFC;--border:#334155;--accent:#22C55E;--accent2:#38BDF8;--accent3:#A78BFA}
+    .dot{animation:run 6s ease-in-out infinite}
+    .core{transform-box:fill-box;transform-origin:center;animation:beat 2.4s ease-in-out infinite}
+    @keyframes run{0%{transform:translateX(0);opacity:0}10%,90%{opacity:1}100%{transform:translateX(340px);opacity:0}}
+    @keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.35)}}
+    @media (prefers-reduced-motion:reduce){.dot,.core{animation:none}.dot{opacity:0}}
+  </style>
+  <defs>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="860" y2="0">
+      <stop offset="0" stop-color="var(--accent3)" stop-opacity="0"/>
+      <stop offset=".25" stop-color="var(--accent2)" stop-opacity=".8"/>
+      <stop offset=".5" stop-color="var(--accent)"/>
+      <stop offset=".75" stop-color="var(--accent2)" stop-opacity=".8"/>
+      <stop offset="1" stop-color="var(--accent3)" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M40 12H860" stroke="url(#g)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M450 4l8 8-8 8-8-8z" fill="var(--bg)" stroke="var(--accent)" stroke-width="2"/>
+  <circle class="core" cx="450" cy="12" r="2.6" fill="var(--accent)"/>
+  <circle class="dot" cx="110" cy="12" r="3" fill="var(--fg)"/>
+  <circle class="dot" style="animation-delay:-3s" cx="450" cy="12" r="3" fill="var(--fg)"/>
+</svg>

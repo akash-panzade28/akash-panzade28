@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 232" role="img" aria-labelledby="t d">
+  <title id="t">Career journey</title>
+  <desc id="d">2017 to 2021: B.Tech in Computer Science, Government College of Engineering Amravati. 2021 to 2023: M.Tech in Computer Science at IIT Kanpur, graduate research assistant and IEEE paper. 2023 to 2025: Associate Data Scientist III at Carelon Global Solutions, Elevance Health. 2025 to now: AI/ML Engineer III at Teradata. Next: agent platforms at scale.</desc>
+  <style>
+    :root{--bg:#FFFFFF;--card:#F1F5F9;--fg:#0F172A;--muted:#475569;--border:#CBD5E1;--accent:#15803D;--accent2:#0369A1;--accent3:#7C3AED;--accent4:#B45309}
+    .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+    .yr{font-size:13px;fill:var(--muted)}
+    .ttl{font-size:16px;font-weight:700;fill:var(--fg)}
+    .org{font-size:13px;fill:var(--muted)}
+    .ring{transform-box:fill-box;transform-origin:center;animation:ring 2.2s ease-out infinite}
+    .packet{animation:run 6s linear infinite}
+    @keyframes ring{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(2.4)}}
+    @keyframes run{0%{transform:translateX(0);opacity:0}5%{opacity:1}90%{opacity:1}100%{transform:translateX(630px);opacity:0}}
+    @media (prefers-reduced-motion:reduce){.ring,.packet{animation:none}.packet,.ring{opacity:0}}
+  </style>
+
+  <rect x=".5" y=".5" width="899" height="231" rx="14" fill="var(--bg)" stroke="var(--border)"/>
+  <text x="30" y="34" class="mono" font-size="12" fill="var(--muted)" letter-spacing="1.5">JOURNEY</text>
+
+  <line x1="90" y1="120" x2="720" y2="120" stroke="var(--border)" stroke-width="4" stroke-linecap="round"/>
+  <line class="track" x1="90" y1="120" x2="720" y2="120" stroke="var(--accent2)" stroke-width="4" stroke-linecap="round"/>
+  <line x1="720" y1="120" x2="830" y2="120" stroke="var(--muted)" stroke-width="2" stroke-dasharray="4 6"/>
+  <circle class="packet" cx="90" cy="120" r="5" fill="var(--fg)"/>
+
+  <g class="node">
+    <circle cx="90" cy="120" r="10" fill="var(--bg)" stroke="var(--accent4)" stroke-width="3"/>
+    <text x="90" y="92" text-anchor="middle" class="mono yr">2017–21</text>
+    <text x="90" y="160" text-anchor="middle" class="sans ttl">B.Tech CSE</text>
+    <text x="90" y="180" text-anchor="middle" class="sans org">GCOE Amravati</text>
+    <text x="90" y="198" text-anchor="middle" class="sans org">CGPA 8.58</text>
+  </g>
+  <g class="node n2">
+    <circle cx="300" cy="120" r="10" fill="var(--bg)" stroke="var(--accent3)" stroke-width="3"/>
+    <text x="300" y="92" text-anchor="middle" class="mono yr">2021–23</text>
+    <text x="300" y="160" text-anchor="middle" class="sans ttl">M.Tech CSE</text>
+    <text x="300" y="180" text-anchor="middle" class="sans org">IIT Kanpur · CGPA 8.57</text>
+    <text x="300" y="198" text-anchor="middle" class="sans org">research asst. · IEEE paper</text>
+  </g>
+  <g class="node n3">
+    <circle cx="510" cy="120" r="10" fill="var(--bg)" stroke="var(--accent2)" stroke-width="3"/>
+    <text x="510" y="92" text-anchor="middle" class="mono yr">2023–25</text>
+    <text x="510" y="160" text-anchor="middle" class="sans ttl">Data Scientist III</text>
+    <text x="510" y="180" text-anchor="middle" class="sans org">Carelon (Elevance Health)</text>
+    <text x="510" y="198" text-anchor="middle" class="sans org">clinical AI · LLMs · forecasting</text>
+  </g>
+  <g class="node n4">
+    <circle class="ring" cx="720" cy="120" r="10" fill="none" stroke="var(--accent)" stroke-width="2"/>
+    <circle cx="720" cy="120" r="10" fill="var(--accent)" stroke="var(--accent)" stroke-width="3"/>
+    <text x="720" y="92" text-anchor="middle" class="mono yr" fill="var(--accent)">2025–now</text>
+    <text x="720" y="160" text-anchor="middle" class="sans ttl">AI/ML Engineer III</text>
+    <text x="720" y="180" text-anchor="middle" class="sans org">Teradata</text>
+    <text x="720" y="198" text-anchor="middle" class="sans org">AgentOps platform</text>
+  </g>
+  <text x="844" y="125" class="mono yr">next</text>
+</svg>
